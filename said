@@ -1,0 +1,5 @@
+#!/bin/bash
+
+printf "hello word"
+sleep 5
+clear
