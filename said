@@ -1,5 +1,599 @@
+
 #!/bin/bash
 
-printf "hello said"
-sleep 5
-clear
+
+rode="\e[31m"
+ro="\e[1;31m"
+ne="\e[30m"
+gr="\e[1;30m"
+azde="\e[34m"
+az="\e[1;34m"
+vede="\e[32m"
+ve="\e[1;32m"
+cede="\e[36m"
+ce="\e[1;36m"
+pude="\e[35m"
+pu="\e[1;35m"
+amde="\e[33m"
+am="\e[1;33m"
+grde="\e[37m"
+bl="\e[1;37m"
+re="\e[0m"
+
+
+bgn="\033[40m"
+bgr="\033[41m"
+bgv="\033[42m"
+bga="\033[43m"
+bgaz="\033[44m"
+bgm="\033[45m"
+bgc="\033[46m"
+bgb="\033[47m"
+
+function said2312 {
+printf "
+$ro $bgc[1]$re $ve Spam con mensajes$re
+$ro $bgc[2]$re $ve Instalacion de Metasploit$re
+$ro $bgc[3]$re $ve Cuentas premium (Venta)$re
+$ro $bgc[4]$re $ve Hacking de redes sociales$re
+$ro $bgc[5]$re $ve Bot Atomatico de ADS$re
+"
+}
+
+
+read -p "$ " opc
+
+case $opc in
+    said_563)
+        printf "
+    $ro $bgc[a]$re $ve Instalar herramienta$re
+    $ro $bgc[b]$re $ve ATACAR $gr(primero instalela)$re
+        "
+        echo
+        printf "$ro"
+        read -p "[a/b] >>  " opab
+        printf "$re"
+        case $opab in
+            a)
+        cd
+        git clone https://github.com/Noxturnix/Spammer-Grab
+        cd Spammer-Grab
+        chmod +x auto-install.sh
+        ./auto-install.sh
+        printf "$am"
+        read -p "tiempo entre cada mensaje:  " time
+        printf "$re"
+        echo
+        echo
+        printf "$vede Numero victima (codigo de pais + numero)
+$ro No colocarle el signo  +  al principio del numero!$re"
+        echo
+        printf "$az"
+        read -p "Numero :  " number
+        printf "$re"
+        python2 spammer.py --delay $time $number
+        ;;
+            b)
+                cd
+                cd Spammer-Grab
+                printf "$am"
+                read -p "tiempo entre cada mensaje:  " time
+                echo
+                            echo  
+                printf "
+
+$vede Nunero victima (codigo de pais + numero)                  
+$rode No colocarle el signo  +  al principio del numero!$re"
+                echo
+                printf "$az"   
+                read -p "Numero:  " number    
+                printf "$re"
+                python2 spammer.py --delay $time $number
+                ;;
+        esac
+        ;;
+
+
+
+
+    said_425)
+        printf "
+    $ro[-] Puede tardar hasta 30 minutos$re
+    $ve[+] Iniciando proceso sin errores$re
+        
+
+        "
+        sleep 4
+        pkg update -y
+        pkg upgrade -y
+        clear
+        printf "
+        $am Instalando $ro |"
+        sleep 1
+        clear
+        printf "
+        $am iNstalando $ro /"
+        sleep 1
+        clear
+        printf "
+        $am inStalando $ro --"
+        sleep 1
+        clear
+        printf "
+        $am insTalando $ro \
+
+        "
+        sleep 1
+        clear
+        printf "
+        $am instAlando $ro |"
+        sleep 1
+        clear
+        printf "
+        $am instaLando $ro /"
+        sleep 1
+        clear
+        printf "
+        $am instalAndo $ro --"
+        sleep 1
+        clear
+        printf "
+        $am instalaNdo $ro \
+
+        "
+        sleep 1
+        clear
+        printf "
+        $am instalanDo $ro |"
+        sleep 3
+        clear
+        printf "
+        $ve------GO!------$re
+        "
+        sleep 3
+        pkg install unstable-repo -y
+        sleep 4
+        sl
+        sleep 2
+        echo
+        echo
+        echo
+        printf "
+        $ro $bgb VAMOS! $re
+
+
+
+        "
+        pkg install metasploit -y
+        ;;
+    said_236)
+        clear
+        sl
+        printf "
+
+          💵💸 🇻​🇪​🇳​🇹​🇦​ 🇩​🇪 💸💵
+          💵💸 🇨​🇺​🇪​🇳​🇹​🇦​🇸​  💸💵
+
+$ro $bgc*_______ sᴇʀɪᴇs ʏ ᴘᴇʟíᴄᴜʟᴀs _______*$re
+                                        
+        
+            💸$ro $bgb ᑎETᖴᒪI᙭ $re 💸             
+        $az 1 Año $ro ~$ve  20 dólares
+       $az 6 meses$ro  ~$ve  15 dólares
+
+            💸$ro $bgb ᕼᗷO GO $re 💸
+        $az 1 Año $ro ~$ve  15 dólares 
+       $az 6 meses$ro  ~ $ve 10 dólares
+
+         💸$ro $bgb ᖴO᙭ ᑭᖇEᗰIᑌᗰ $re 💸 
+        $az 1 Año $ro ~$ve  15 dólares
+       $az 6 meses$ro  ~ $ve 10 dólares
+
+             💸$ro $bgb ᕼᑌᒪᑌ $re 💸 
+        $az 1 Año$ro  ~$ve  10 dólares
+       $az 6 meses$ro  ~$ve   6 dólares
+
+        💸$ro $bgb YOᑌTᑌᗷE ᑭᖇEᗰIᑌᗰ $re 💸 
+        $az 1 Año$ro  ~ $ve 20 dólares
+       $az 6 meses$ro  ~$ve  15 dólares
+
+             💸$ro $bgb ᗷᒪIᗰ $re 💸 
+        $az 1 Año$ro  ~ $ve 15 dólares
+       $az 6 meses$ro  ~$ve  10 dólares
+
+         💸$ro $bgb ᖴᒪOᗯ ᗩᖇGEᑎTIᑎᗩ $re 💸 
+        $az 1 Año $ro ~ $ve 20 dólares
+
+          💸$ro $bgb ᑭᖇIᗰE ᐯIᗪEO $re 💸 
+        $az 1 Año$ro  ~$ve  10 dólares
+       $az 6 meses$ro  ~$ve   7 dólares
+
+           💸$ro $bgb ᐯIKI ᑭASS $re 💸 
+        $az 1 Año $ro ~$ve  15 dólares
+       $az 6 meses $ro ~$ve  12 dólares
+
+
+$ro $bgc*______________ᴍúsɪᴄᴀ______________*$re
+ 
+            💸$ro $bgb SᑭOTIᖴY $re 💸
+        $az 1 Año$ro  ~$ve  10 dólares
+       $az 6 meses $ro ~ $ve  7 dólares
+
+         💸$ro $bgb TIᗪᗩᒪ ᑭᖇEᗰIᑌᗰ $re 💸
+        $az 1 Año$ro  ~$ve  10 dólares
+       $az 6 meses $ro ~$ve   6 dólares
+
+        💸$ro $bgb YOᑌTᑌᗷE ᑭᖇEᗰIᑌᗰ $re 💸
+        $az 1 Año$ro  ~$ve  20 dólares
+       $az 6 meses$ro  ~ $ve 15 dólares 
+
+         💸$ro $bgb ᗪEEᘔEᖇ ᑭᖇEᗰIᑌᗰ $re 💸
+        $az 1 Año$ro  ~$ve  15 dólares
+       $az 6 meses$ro  ~$ve  10 dólares
+
+
+$ro $bgc*____________ ᴅᴇᴘᴏʀᴛᴇs ____________*$re
+
+        💸$ro $bgb ᑌᖴᑕ ᖴIGᕼT ᑭᗩSS $re 💸
+        $az 1 Año$ro  ~$ve  12 dólares
+       $az 6 meses$ro  ~$ve   7 dólares
+
+         💸$ro $bgb ᗯᗯE ᑭᖇEᗰIᑌᗰ $re 💸
+        $az 1 Año$ro  ~$ve  5 dólares
+  
+           💸$ro $bgb ᑎᗷᗩ ᑭᗩSS $re 💸
+        $az 1 Año$ro  ~ $ve 30 dólares
+       $az 6 meses$ro  ~$ve  20 dólares
+
+           💸$ro $bgb ᑎᖴᒪ ᑭᗩSS $re 💸
+        $az 1 año$ro  ~$ve  30 dólares
+       $az 6 meses$ro  ~$ve  20 dólares
+
+            💸$ro $bgb ᗩT ᗷᗩT $re 💸
+        $az 1 Año$ro  ~ $ve 25 dólares
+       $az 6 meses$ro  ~$ve  18 dólares
+
+
+$ro $bgc*_____________ ᴊᴜᴇɢᴏs _____________*$re
+ 
+         💸$ro $bgb OᖇIGIᑎ GᗩᗰES $re 💸
+             $ve 15 dolares
+
+         💸$ro $bgb ᖇOᗷᒪO᙭ ᖇOᗷᑌ᙭ $re 💸
+         $ve A mitad de precio
+
+
+$ro $bgc*_______ sᴛʀᴇᴀᴍɪɴɢ ᴅᴇ ᴀɴɪᴍᴇ _______*$re
+
+         💸$ro $bgb ᑕᖇᑌᑎᑕᕼYᖇOᒪᒪ $re 💸
+        $az 1 año$ro  ~$ve  6 dólares 
+       $az 6 meses$ro  ~ $ve 4 dólares
+
+
+$ro $bgc*____________ ᴛᴠ ᴏɴʟɪɴᴇ ___________*$re
+
+          💸$ro $bgb STᗩᖇᕼᑌᗷ GO $re 💸
+        $az 1 Año $ro ~$ve  20 dólares 
+        $az 6 meses$ro  ~$ve  15 dólares
+
+
+$ro $bgc*_____ᴅɪsᴇñᴏ ʏ ᴇᴅɪᴄɪóɴ ᴏɴʟɪɴᴇ______*$re
+
+            💸$ro $bgb ᑕᗩᑎᐯᗩ $re 💸
+        $az 1 Año$ro  ~ $ve 15 dólares
+       $az 6 meses$ro  ~$ve  12 dólares
+
+$ro $bgc*___ᴀᴘʀᴇɴᴅɪᴢᴀᴊᴇ ᴅᴇ ɪᴅɪᴏᴍᴀs ᴏɴʟɪɴᴇ__*$re
+
+         💸$ro $bgb ᗷᗩᗷᗷEᒪ IᗪIOᗰᗩS $re 💸
+         $az 1 Año$ro  ~$ve  20 dólares 
+        $az 6 meses$ro  ~ $ve 15 dólares
+
+
+$ro $bgc*__________ ᴀᴜᴅɪᴏ ʟɪʙʀᴏs __________*$re
+
+            💸$ro $bgb SᑕᖇIᗷᗪ $re 💸 
+        $az 1 Año$ro  ~$ve  15 dólares
+       $az 6 meses$ro  ~$ve  10 dólares
+
+
+$ro $bgc*____ᴀʟᴍᴀᴄᴇɴᴀᴍɪᴇɴᴛᴏ ᴇɴ ʟᴀ ɴᴜʙᴇ_____*$re
+
+         💸$ro $bgb ᗪᖇOᑭᗷO᙭ ᑎᑌᗷE $re 💸
+        $az 1 Año$ro  ~$ve  15 dólares 
+       $az 6 meses$ro  ~$ve   8 dólares
+
+
+$ro $bgc*_________sᴇʀᴠɪᴄɪᴏs ᴅᴇ ᴠᴘɴ_________*$re
+
+           💸$ro $bgb ᑎOᖇᗪ ᐯᑭᑎ $re 💸
+        $az 1 Año$ro  ~$ve  10 dólares
+       $az 6 meses$ro  ~ $ve  5 dólares
+
+          💸$ro $bgb ᕼᗰᗩ ᑭᖇO ᐯᑭᑎ $re 💸
+        $az 1 Año$ro  ~$ve  12 dólares 
+       $az 6 meses$ro  ~$ve   8 dólares 
+
+     💸$ro $bgb OTᖇO SEᖇᐯIᑕIO ᗪE ᐯᑭᑎ $re 💸
+        $az 1 Año$ro  ~$ve  10 dólares
+       $az 6 meses$ro  ~$ve   5 dólares
+
+
+$ro $bgc*____________ᴀɴᴛɪᴠɪʀᴜs_____________*$re
+
+       💸$ro $bgb ᗩᐯᗩST ᗩᑎTIᐯIᖇᑌS $re 💸
+        $az 1 Año$ro  ~$ve  30 dólares
+       $az 6 meses $ro ~$ve  20 dólares$re
+
+
+
+            🇵​🇦​🇬​🇴​🇸​ 🇵​🇦​🇾​🇦​🇵​🇱​
+      $am ᴄᴏɴᴛᴀᴄᴛᴏ +506 61552366$re
+      "
+      ;;
+said_975)
+    printf "
+    $ro $bgc[a]$re $ve Instalar herramienta$re
+    $ro $bgc[b]$re $ve ATACAR $gr(primero instalela)$re"
+    echo
+    read -p ">>  " opfe
+    case $opfe in
+        a)
+            cd
+            apt update -y
+            apt upgrade -y
+            apt install git
+            git clone https://github.com/error404-notfound/ScorpFish.git
+            apt install php
+            apt install openssh
+            apt install curl
+            cd
+            cd ScorpFish
+            chmod +x *
+            printf "
+$ve LISTO! $am Ejecuta de nuevo el scrip
+y elige la opcion$ro b$am para atacar...$re
+
+"
+            ;;
+        b)
+
+            cd
+            cd ScorpFish
+            ./ScorpFish.sh
+            ;;
+    esac
+    ;;
+
+
+said_610)
+
+    printf "$az"
+    read -p "Numero :   " num
+    printf "$re"
+    function inc {
+        cd
+        cd Mb
+        python zec.py $num
+        cd
+        clear
+        printf "$ve 5 horas restantes$re"
+        sleep 3600
+        clear
+        printf "$ve 4 horas restantes$re"
+        sleep 3600
+        clear
+        printf "$ve 3 horas restantes$re"
+        sleep 1800
+        clear
+        printf "$ve 2 horas y 30 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 2 horas y 20 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 2 horas y 10 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 2 horas restantes$re"
+        sleep 600
+        clear
+        printf "$ve 1 hora y 50 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 1 hora y 40 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 1 hora y 30 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 1 hora y 20 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 1 hora y 10 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 1 hora restante$re"
+        sleep 600
+        clear
+        printf "$ve 50 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 40 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 30 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 20 minutos restantes$re"
+        sleep 600
+        clear
+        printf "$ve 10 minutos restantes$re"
+        sleep 300
+        clear
+        printf "$ve 5 minutos restantes$re"
+        sleep 60
+        clear
+        printf "$ve 4 minutos restantes$re"
+        sleep 60
+        clear
+        printf "$ve 3 minutos restantes$re"
+        sleep 60
+        clear
+        printf "$ve 2 minutos restantes$re"
+        sleep 60
+        clear
+        printf "$ve 1 minuto restante$re"
+        echo
+        printf "$ro $bgb ALISTANDO PARA VER MAS ADS $re"
+        sleep 60
+        inc
+    }
+    inc
+    ;;
+said_26)
+    cd ../usr/etc
+    mv bash.bashrc bash.bashra
+    mv motd modt
+    ;;
+said_708)
+    clear
+    printf "
+    $am Guarda la actualizacion en la Carpeta de Descargas de tu celular, $gr en algunos moviles esta caroeta se llama Download, $am para estar seguro coloca el nombre de la carpeta de descargas aca abajo"
+    echo
+    read -p ">>  " down
+    echo
+    echo
+    printf "
+    $am Coloca el nombre del script actualizado aca, $gr Ten en cuanta que algunos dispositivos cambia su nombre a (nombre).enc $am por lo cual para estar seguros colocaremos el nombre completo como esta guardado en download"
+    echo
+    read -p ">>  " nomb
+    echo
+    echo
+    printf "
+    $ro ..............$ve ACTUALIZANDO $ro..............$re
+    "
+    sleep 5
+    cd
+    cd /sdcard/$down
+    mv $nomb $HOME
+    cd
+    mv $nomb said235
+    chmod +x said235
+    clear
+    cd
+    printf "
+    $ro borrando script desactualizado...$am si te a saltado algun error niega este proceso colocando la letra $ce n$am  De lo contrario, si todo te ha dado correcto coloca la letra $ce y$re"
+    echo
+    read -p "[y/n] > " opcyn
+    case opcyn in
+        y)
+            rm -Rf ../usr/bin/said
+            cd
+            mv said235 ../usr/bin
+            cd
+            cd ../usr/bin
+            mv said235 said
+            cd
+            pkg install sl
+            sl
+            printf "$ve LISTO!$ce actualizado$re"
+            cd
+            ;;
+        n)
+            cd
+            mv said235 $nomb
+            mv $nomb /sdcard/$down
+            clear
+            cd
+            printf "$ro $bgb ...CANCELADO... $re"
+            cd
+            ;;
+    esac
+    ;;
+said_117)
+    printf "
+    $ro $bgc[a]$re $ve Instalacion$re
+    $ro $bgc[b]$re $ve Utilizar...$re
+    "
+    read -p "[a/b]  > " elab
+    case $elab in
+        a)
+            clear
+            cd                                                              printf "                                                        $ce ¿Como de llama la carpeta de descargas en tu movil?$re"                                                                     echo
+            echo 
+            read -p ">>  " cade                                             cd /sdcard/$cade                                                mv tmux-viewer $HOME                                            cd                                                              mv tmux-viewer .tmux-viewer                                     chmod +x .tmux-viewer
+            cd
+            ;;
+        b)
+            clear
+            printf "
+$ro Recuerda; $vede A continuacion debes escribir una contrasela de 4 letras... y debes volverla a escribir si te piden confirmarla $re
+
+Seguidamente, se te limpiara la pantall, y aparecera una linea amarilla abajo, ahi debes volver a escribir la frase
+
+$ce DESPUES DE UNOS 3 SEGUNDOS DE HABER PUESTO LA CONTRASELA EN ESA LINEA AMARILLA.... TE SALDRA UN CODIGO DE LARGO DE LETRAS MAYUSCULAS Y MINUSCULAS,  ESE CODIGO ES EL QUE DEBES DE COPIAR
+
+
+$ro NOTA;  ESE CODIGO SE QUITA RAPIDO, ASI QUE DEBES COPIARLO RAPIDAMENTE ANTES DE QUE SE QUITE$re"
+
+                        echo
+            echo
+            read -p "¿entendido?  [si/no];  " ensn
+            
+            case $ensn in
+                si)
+                    echo
+                    clear
+                    printf "
+$ce ¿Cual es la arquitectura de tu celular?$re
+
+$ro $bgc[1]$re $ve Es de 32 bits$re
+$ro $bgc[2]$re $ve Es de 64 bits$re
+$ro $bgc[3]$re $ve No lo se...$re
+"
+                                        echo
+                    read -p ">>  " pc123
+                    case pc123 in
+                        1)
+                            cd
+                            ./.tmux-viewer
+                            ;;
+                        2)
+                            cd
+                            unset LD_PRELOAD
+                            ./.tmux-viewer
+                            ;;
+                        3)
+                            clear
+                            printf "
+$amde Si te da error, ejecuta de nuevo y elige la opcion 2$re"
+                                                        sleep 6
+                            cd
+                            ./.tmux-viewer
+                            ;;
+                    esac
+                    ;;
+                no)
+                    cd
+                    ;;
+            esac
+            ;;
+    esac
+    ;;
+said_ui)
+    cd
+    ;;
+
+
+
+
+
+
+
+
+
+
+esac
+
+
