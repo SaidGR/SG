@@ -581,18 +581,13 @@ $amde Si te da error, ejecuta de nuevo y elige la opcion 2$re"
             ;;
     esac
     ;;
-said_ui)
+mi_grupo) 
+    cd
+    termux-open https://chat.whatsapp.com/JH8RHcNM7R2Arz0NWJiloI
+    ;;
+base) 
     cd
     ;;
-
-
-
-
-
-
-
-
-
 
 esac
 
