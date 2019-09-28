@@ -1,0 +1,18 @@
+#!/bin/bash
+
+cd
+rm -Rf SG
+cd
+cd ../usr/bin
+rm -Rf said
+cd
+git clone https://github.com/SaidGR/SG.git
+cd
+cd ../usr/bin
+mv said-update snd
+cd
+cd SG
+chmod +x inc
+./inc
+cd
+rm -Rf ../usr/bin/snd
