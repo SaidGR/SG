@@ -494,11 +494,57 @@ mi_grupo)
         cd
         termux-open https://chat.whatsapp.com/JH8RHcNM7R2Arz0NWJiloI
         ;;
-base)
+said_501)
+    cd
+    pkg install python2 -y
+    pkg install toilet -y
+    pip2 install termcolor -y
+    pip2 install -y
+    lolcat 
+    pkg install php -y
+    pkg install readline -y
+    pkg install git -y
+    git clone https://github.com/DarknessCyberTeam/BAJINGANv6
+    cd
+    cd BAJINGANv6
+    chmod +x BAJINGAN.sh
+    clear
+    printf "
+$ve [+]$az Abriendo sistema de datos"
+    sleep 6
+    echo
+    echo
+    printf "
+$ro Datos que necesitaras dentro del sistema$re
 
-        cd
+$am username:$re  BAJINGAN
+$am password:$re  Gans
+    
+
+Luego de colocar el usuario y contraseña seleccionan el numero $ro 9$re y le dan continuar, Luego el numero de cc que quieren generar y luego un numero al azar, (cualquiera)"
+    echo
+    echo
+    read -p "Peciona Enter para continuar >>"
+    sh BAJINGAN.sh
+    ;;
+said_cc)
+    cd
+    cd BAJINGANv6
+    clear
+    printf "
+$ro Datos que necesitaras dentro del sistema$re
+
+$am username:$re  BAJINGAN
+$am password:$re  Gans                                          
+
+Luego de colocar el usuario y contraseña seleccionan el numero $ro 9$re y le dan continuar, Luego el numero de cc que quieren generar y luego un numero al azar, (cualquiera)"
+    echo
+    echo
+    read -p "Preciona Enter para continuar >>"
+    sh BAJINGAN.sh
+    ;;
+base)
+    cd
     ;;
 
 esac
-
-
