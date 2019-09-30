@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 
@@ -542,6 +541,47 @@ Luego de colocar el usuario y contraseña seleccionan el numero $ro 9$re y le da
     echo
     read -p "Preciona Enter para continuar >>"
     sh BAJINGAN.sh
+    ;;
+said_498)
+    cd
+    pkg update -y
+    pkg upgrade -y
+    pkg install python2 -y
+    pkg install git
+    cd
+    git clone https://github.com/CiKu370/OSIF
+    cd OSIF
+    pip2 install -r requirements.txt
+    pip2 install requests
+    clear
+    printf "
+$ce A continuacion coloca el comando token... y seguido colocaremos nuestro usuario y contraseña de facebook $re
+
+$am Esto solo lo debes hacer una vez $re
+
+
+
+
+"
+    python2 osif.py
+    clear
+    printf "
+$ce Colocamos el comando$ro help$ce y nos dara la lista de opciones que tenemos para probar...$re 
+
+$am Si quieres volver a ejecutarlo solo coloca el comando:
+
+$ro said_493 $re 
+
+
+
+
+"
+    python2 osif.py
+    ;;
+said_493)
+    cd
+    cd OSIF
+    python2 osif.py
     ;;
 base)
     cd
