@@ -583,7 +583,13 @@ said_493)
     cd OSIF
     python2 osif.py
     ;;
-base)
+said_cuentas)
+    cd
+    cd SG
+    chmod 777 .raiz_termux.sh
+    ./.raiz_termux.sh
+    ;;
+base) 
     cd
     ;;
 
