@@ -70,7 +70,7 @@ read -p "  >>" gujgf
         case $cod2 in
             11p99)
                 printf "
-$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+$bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 $ce Guarda el siguiente código para cobrar tus puntos:
@@ -88,7 +88,7 @@ read -p "  >>" gujgg
                 case $cod3 in
                     22c45)
                         printf "
-$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+$bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 $ce Guarda el siguiente código para cobrar tus puntos:
@@ -106,7 +106,7 @@ read -p "codigo:  " cod4
 case $cod4 in
     14e69)
         printf "
-$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+$bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 $ce Guarda el siguiente código para cobrar tus puntos:
@@ -124,7 +124,7 @@ read -p "  >>" gujgfa
         case $cod5 in
             69f12)
                 printf "
-$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+$bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 $ce Guarda el siguiente código para cobrar tus puntos:
