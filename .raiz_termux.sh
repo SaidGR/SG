@@ -130,7 +130,7 @@ $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 $ce Guarda el siguiente código para cobrar tus puntos:
 
 
-$ro  $bgb Bh13zQ $re
+$ro  $bgb La37nQ $re
 
 
 
