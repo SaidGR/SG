@@ -47,28 +47,97 @@ read -p "  >>" xc
 clear
 
 
-termux-open http://cutpaid.com/UjuVwdG
+termux-open https://fc.lc/BEFR0
 read -p "codigo:  " cod1
 case $cod1 in
-    12b14)
-        termux-open http://cutpaid.com/1j1zFP
+    14d16)
+        printf "
+$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+
+$ve Muy bien $nombrex, Ha obtenido +10 puntos,
+$ce Guarda el siguiente código para cobrar tus puntos:
+
+
+$ro  $bgb Bh13zQ $re
+
+
+
+$ce presiona$ve ENTER$ce para ganar puntos$re"
+read -p "  >>" gujgf
+        termux-open https://fc.lc/HCwxip1
         read -p "codigo:  " cod2
         case $cod2 in
-            56c13)
-                termux-open http://cutpaid.com/xkSt5u
+            11p99)
+                printf "
+$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+
+$ve Muy bien $nombrex, Ha obtenido +10 puntos,
+$ce Guarda el siguiente código para cobrar tus puntos:
+
+
+$ro  $bgb Sg12cR $re
+
+
+
+$ce presiona$ve ENTER$ce para ganar puntos$re"
+read -p "  >>" gujgg
+                termux-open https://fc.lc/mLEyLbX8
                 read -p "codigo:  " cod3
                 case $cod3 in
-                    45n74)
+                    22c45)
                         printf "
-$re"
-termux-open http://cutpaid.com/wNOaYXy
+$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+
+$ve Muy bien $nombrex, Ha obtenido +10 puntos,
+$ce Guarda el siguiente código para cobrar tus puntos:
+
+
+$ro  $bgb Cr16nW $re
+
+
+
+$ce presiona$ve ENTER$ce para ganar puntos$re"
+read -p "  >>" gujgfk
+termux-open https://fc.lc/66ndy1sV
 read -p "codigo:  " cod4
 case $cod4 in
-    72m23)
-        termux-open http://cutpaid.com/EUDmywP
+    14e69)
+        printf "
+$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+
+$ve Muy bien $nombrex, Ha obtenido +10 puntos,
+$ce Guarda el siguiente código para cobrar tus puntos:
+
+
+$ro  $bgb 14Ny25 $re
+
+
+
+$ce presiona$ve ENTER$ce para ganar puntos$re"
+read -p "  >>" gujgfa
+        termux-open https://fc.lc/OMWU3FD
         read -p "codigo:  " cod5
         case $cod5 in
-            37s47)
+            69f12)
+                printf "
+$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+
+$ve Muy bien $nombrex, Ha obtenido +10 puntos,
+$ce Guarda el siguiente código para cobrar tus puntos:
+
+
+$ro  $bgb Bh13zQ $re
+
+
+
+$ce presiona$ve ENTER$ce para ganar puntos$re"
+read -p "  >>" gujgfe
+                clear
+                printf "
+$am Genial $nombrex, Ya no hay mas puntos para ganar por hoy, vuelve luego! 
+
+function ggffrr {
+printf " 
                 termux-open http://cutpaid.com/bZH5Ww1
                 read -p "codigo:  " cod6
                 case $cod6 in
@@ -128,7 +197,8 @@ esac
 ;;
 esac
 ;;
-esac
+esac"
+} 
 ;;
 esac
 ;;
