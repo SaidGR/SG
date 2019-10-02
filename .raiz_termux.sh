@@ -64,6 +64,7 @@ $ro  $bgb Bh13zQ $re
 
 $ce presiona$ve ENTER$ce para ganar puntos$re"
 read -p "  >>" gujgf
+        clear
         termux-open https://fc.lc/HCwxip1
         read -p "codigo:  " cod2
         case $cod2 in
@@ -81,6 +82,7 @@ $ro  $bgb Sg12cR $re
 
 $ce presiona$ve ENTER$ce para ganar puntos$re"
 read -p "  >>" gujgg
+                clear
                 termux-open https://fc.lc/mLEyLbX8
                 read -p "codigo:  " cod3
                 case $cod3 in
@@ -98,6 +100,7 @@ $ro  $bgb Cr16nW $re
 
 $ce presiona$ve ENTER$ce para ganar puntos$re"
 read -p "  >>" gujgfk
+clear
 termux-open https://fc.lc/66ndy1sV
 read -p "codigo:  " cod4
 case $cod4 in
@@ -115,6 +118,7 @@ $ro  $bgb 14Ny25 $re
 
 $ce presiona$ve ENTER$ce para ganar puntos$re"
 read -p "  >>" gujgfa
+        clear
         termux-open https://fc.lc/OMWU3FD
         read -p "codigo:  " cod5
         case $cod5 in
@@ -135,6 +139,9 @@ read -p "  >>" gujgfe
                 clear
                 printf "
 $am Genial $nombrex, Ya no hay mas puntos para ganar por hoy, vuelve luego! 
+
+
+
 
 function ggffrr {
 printf " 
