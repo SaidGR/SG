@@ -135,10 +135,10 @@ $ro  $bgb Bh13zQ $re
 
 
 $ce presiona$ve ENTER$ce para ganar puntos$re"
-read -p "  >>" gujgfe
-clear
-printf "
-$am Genial $nombrex, Ya no hay mas puntos para ganar por hoy, vuelve luego! 
+                read -p "  >>" gujgfe
+                clear
+                printf "
+$am Genial $nombrex, Ya no hay mas puntos para ganar por hoy, vuelve luego!" 
 ;;
 esac
 ;;
