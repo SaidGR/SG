@@ -52,7 +52,7 @@ read -p "codigo:  " cod1
 case $cod1 in
     14d16)
         printf "
-$bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $bgn $bgr $bgv $bga $bgaz $bgm $bgc $bgb $re
+$bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 $ce Guarda el siguiente código para cobrar tus puntos:
