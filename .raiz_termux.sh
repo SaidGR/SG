@@ -28,13 +28,7 @@ bgb="\033[47m"
 
 clear
 printf "$ce"
-read -p "coloca tu numero de whatsapp:  " numerox
-echo
-echo
 read -p "coloca tu nombre de whatsapp:  " nombrex
-echo
-echo
-read -s -p "Coloca una contraseña >>  " contrasenax
 clear
 printf "
 $ve [*]$az bienvenido $nombrex, salta tanta publicidad como te sea posible...
@@ -55,14 +49,10 @@ case $cod1 in
 $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
-$ce Guarda el siguiente código para cobrar tus puntos:
 
-
-$ro  $bgb Bh13zQ $re
-
-
-
-$ce presiona$ve ENTER$ce para ganar puntos$re"
+$ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
+termux-open https://wa.me/50661552366?text=Bh13zQ
+printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
 read -p "  >>" gujgf
         clear
         termux-open https://fc.lc/HCwxip1
@@ -73,15 +63,11 @@ read -p "  >>" gujgf
 $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
-$ce Guarda el siguiente código para cobrar tus puntos:
 
-
-$ro  $bgb Sg12cR $re
-
-
-
-$ce presiona$ve ENTER$ce para ganar puntos$re"
-read -p "  >>" gujgg
+$ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
+termux-open https://wa.me/50661552366?text=Sg12cR
+printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
+read -p "  >>" gujgf
                 clear
                 termux-open https://fc.lc/mLEyLbX8
                 read -p "codigo:  " cod3
@@ -91,15 +77,11 @@ read -p "  >>" gujgg
 $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
-$ce Guarda el siguiente código para cobrar tus puntos:
 
-
-$ro  $bgb Cr16nW $re
-
-
-
-$ce presiona$ve ENTER$ce para ganar puntos$re"
-read -p "  >>" gujgfk
+$ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
+termux-open https://wa.me/50661552366?text=Cr16nW
+printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
+read -p "  >>" gujgf
 clear
 termux-open https://fc.lc/66ndy1sV
 read -p "codigo:  " cod4
@@ -109,15 +91,11 @@ case $cod4 in
 $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
-$ce Guarda el siguiente código para cobrar tus puntos:
 
-
-$ro  $bgb 14Ny25 $re
-
-
-
-$ce presiona$ve ENTER$ce para ganar puntos$re"
-read -p "  >>" gujgfa
+$ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
+termux-open https://wa.me/50661552366?text=14Ny25
+printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
+read -p "  >>" gujgf
         clear
         termux-open https://fc.lc/OMWU3FD
         read -p "codigo:  " cod5
@@ -127,15 +105,11 @@ read -p "  >>" gujgfa
 $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $bgr  $bgv  $bga  $bgaz  $bgm  $bgc  $bgb  $re
 
 $ve Muy bien $nombrex, Ha obtenido +10 puntos,
-$ce Guarda el siguiente código para cobrar tus puntos:
 
-
-$ro  $bgb La37nQ $re
-
-
-
-$ce presiona$ve ENTER$ce para ganar puntos$re"
-                read -p "  >>" gujgfe
+$ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
+termux-open https://wa.me/50661552366?text=La37nQ
+printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
+read -p "  >>" gujgf
                 clear
                 printf "
 $am Genial $nombrex, Ya no hay mas puntos para ganar por hoy, vuelve luego!" 
