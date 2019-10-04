@@ -52,6 +52,7 @@ $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 
 $ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
 termux-open https://wa.me/50661552366?text=Bh13zQ
+clear
 printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
 read -p "  >>" gujgf
         clear
@@ -66,6 +67,7 @@ $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 
 $ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
 termux-open https://wa.me/50661552366?text=Sg12cR
+clear
 printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
 read -p "  >>" gujgf
                 clear
@@ -80,6 +82,7 @@ $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 
 $ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
 termux-open https://wa.me/50661552366?text=Cr16nW
+clear
 printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
 read -p "  >>" gujgf
 clear
@@ -94,6 +97,7 @@ $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 
 $ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
 termux-open https://wa.me/50661552366?text=14Ny25
+clear
 printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
 read -p "  >>" gujgf
         clear
@@ -108,6 +112,7 @@ $ve Muy bien $nombrex, Ha obtenido +10 puntos,
 
 $ce presiona$ve ENTER$ce para enviar tu código al bot$re" 
 termux-open https://wa.me/50661552366?text=La37nQ
+clear
 printf "$ce Pará ganar más puntos preciona$ve ENTER$re" 
 read -p "  >>" gujgf
                 clear
