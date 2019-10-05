@@ -30,7 +30,7 @@ bgc="\033[46m"
 bgb="\033[47m"
 
 
-
+clear
 printf "
 
  $bgr&&&&&&&&$re     $bgr&&&&$re     $bgr&&&&&&&&$re  $bgr&&&&&$re
@@ -39,7 +39,7 @@ printf "
  $bga::::::::$re  $bga::$re      $bga::$re     $bga::$re     $bga::$re    $bga::$re
        $bgv;;$re  $bgv;;;;;;;;;;$re     $bgv;;$re     $bgv;;$re   $bgv;;$re
        $bgv..$re  $bgv..$re      $bgv..$re     $bgv..$re     $bgv..$re  $bgv..$re 
- $bgc........$re  $bgc..$re     $bgc..$re  $bgc........$re  $bgc.....$re 
+ $bgc........$re  $bgc..$re      $bgc..$re  $bgc........$re  $bgc.....$re 
 
 
 $ro $bgc[1]$re $ve Spam con mensajes$re
