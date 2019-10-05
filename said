@@ -69,6 +69,7 @@ case $opc in
         mv bash.bashrc $HOME/SG/.exc.sh
         mv .exc.sh bash.bashrc
         mv motd motd1
+        ;;
     1)
         printf "
     $ro $bgc[a]$re $ve Instalar herramienta$re
