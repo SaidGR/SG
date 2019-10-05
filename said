@@ -29,15 +29,32 @@ bgm="\033[45m"
 bgc="\033[46m"
 bgb="\033[47m"
 
-function said2312 {
+
+
 printf "
+
+ $bgr&&&&&&&&$re     $bgr&&&&$re     $bgr&&&&&&&&$re  $bgr&&&&&$re
+ $bgr&&&$re         $bgr&&$re  $bgr&&$re       $bgr&&$re     $bgr&&$re   $bgr&&$re
+ $bga!!!$re        $bga!!$re    $bga!!$re      $bga!!$re     $bga!!$re    $bga!!$re 
+ $bga::::::::$re  $bga::$re      $bga::$re     $bga::$re     $bga::$re    $bga::$re
+       $bgv;;$re  $bgv;;;;;;;;;;$re     $bgv;;$re     $bgv;;$re   $bgv;;$re
+       $bgv..$re  $bgv..$re      $bgv..$re     $bgv..$re     $bgv..$re  $bgv..$re 
+ $bgc........$re  $bgc..$re     $bgc..$re  $bgc........$re  $bgc.....$re 
+
+
 $ro $bgc[1]$re $ve Spam con mensajes$re
 $ro $bgc[2]$re $ve Instalacion de Metasploit$re
 $ro $bgc[3]$re $ve Cuentas premium (Venta)$re
 $ro $bgc[4]$re $ve Hacking de redes sociales$re
-$ro $bgc[5]$re $ve Bot Atomatico de ADS$re
+$ro $bgc[5]$re $ve Bot Atomatico de BTC (primero instale 10)$re
+$ro $bgc[6]$re $ve Tmux-Viewer (ayuda personalizada) $re
+$ro $bgc[7]$re $ve Grupos y canales$re
+$ro $bgc[8]$re $ve datos de facebook (INSTALA)$re
+$ro $bgc[9]$re $ve roba datos de facebook (instala primero, 8)$re
+$ro $bgc[10]$re$ve Descarga bot para minar BTC$re
+$ro $bgc[11]$re$ve Generador de cc (INSTALA) $re
+$ro $bgc[12]$re$ve Usar Generador de cc (primero instale 11)$re
 "
-}
 
 
 read -p "$ " opc
