@@ -60,7 +60,7 @@ $ro $bgc[12]$re$ve Usar Generador de cc (primero instale 11)$re
 read -p "$ " opc
 
 case $opc in
-    said_563)
+    1)
         printf "
     $ro $bgc[a]$re $ve Instalar herramienta$re
     $ro $bgc[b]$re $ve ATACAR $gr(primero instalela)$re
@@ -112,7 +112,7 @@ $rode No colocarle el signo  +  al principio del numero!$re"
 
 
 
-    said_425)
+    2)
         printf "
     $ro[-] Puede tardar hasta 30 minutos$re
     $ve[+] Iniciando proceso sin errores$re
@@ -182,7 +182,7 @@ $rode No colocarle el signo  +  al principio del numero!$re"
         "
         pkg install metasploit -y
         ;;
-    said_236)
+    3)
         clear
         sl
         printf "
@@ -347,7 +347,7 @@ $ro $bgc*____________ᴀɴᴛɪᴠɪʀᴜs_____________*$re
       $am ᴄᴏɴᴛᴀᴄᴛᴏ +506 61552366$re
       "
       ;;
-said_975)
+4)
     printf "
     $ro $bgc[a]$re $ve Instalar herramienta$re
     $ro $bgc[b]$re $ve ATACAR $gr(primero instalela)$re"
@@ -382,7 +382,7 @@ y elige la opcion$ro b$am para atacar...$re
     ;;
 
 
-said_610)
+5)
 
     printf "$az"
     read -p "Numero :   " num
@@ -407,7 +407,7 @@ $ce Esperando $timepi minutos para reintentar"
     }
     inc
     ;;
-said_600)
+10)
     cd
     pkg update -y
     pkg upgrade -y
@@ -434,7 +434,7 @@ $ro $bgb LISTO, EJECUTA AHORA said_610 PARA EMPEZAR A MINAR AHORA $re "
     said
     ;;
 
-said_117)
+6)
     printf "                                      
 $ro $bgc[a]$re $ve Instalacion$re
 $ro $bgc[b]$re $ve Utilizar...$re"
@@ -505,12 +505,21 @@ $ce PRECIONA ENTER PARA CONTINUAR $re"
             ;;
     esac
     ;;
-mi_grupo)
-
-        cd
-        termux-open https://chat.whatsapp.com/JH8RHcNM7R2Arz0NWJiloI
+7)
+        printf "
+$ro $bgc[1]$re $ve Grupo de Whatsapp$re
+$ro $bgc[2]$re $ve Grupo de Telegram$re" 
+        read -p ">> " ele12tw
+        case $ele12tw in
+             1)
+                  termux-open https://chat.whatsapp.com/JH8RHcNM7R2Arz0NWJiloI
+                  ;;
+             2)
+                  termux-open https://t.me/joinchat/L48AMwuXwHCNaAQJcqEnXg
+                  ;;
+        esac
         ;;
-said_501)
+11)
     cd
     pkg install python2 -y
     pkg install toilet -y
@@ -543,7 +552,7 @@ Luego de colocar el usuario y contraseña seleccionan el numero $ro 9$re y le da
     read -p "Peciona Enter para continuar >>"
     sh BAJINGAN.sh
     ;;
-said_cc)
+12)
     cd
     cd BAJINGANv6
     clear
@@ -559,7 +568,7 @@ Luego de colocar el usuario y contraseña seleccionan el numero $ro 9$re y le da
     read -p "Preciona Enter para continuar >>"
     sh BAJINGAN.sh
     ;;
-said_498)
+8)
     cd
     pkg update -y
     pkg upgrade -y
@@ -595,7 +604,7 @@ $ro said_493 $re
 "
     python2 osif.py
     ;;
-said_493)
+9)
     cd
     cd OSIF
     python2 osif.py
