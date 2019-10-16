@@ -33,16 +33,18 @@ bgb="\033[47m"
 clear
 printf "
 
- $bgr&&&&&&&&$re     $bgr&&&&$re     $bgr&&&&&&&&$re  $bgr&&&&&$re
- $bgr&&&$re         $bgr&&$re  $bgr&&$re       $bgr&&$re     $bgr&&$re   $bgr&&$re
- $bga!!!$re        $bga!!$re    $bga!!$re      $bga!!$re     $bga!!$re    $bga!!$re 
- $bga::::::::$re  $bga::$re      $bga::$re     $bga::$re     $bga::$re    $bga::$re
-       $bgv;;$re  $bgv;;;;;;;;;;$re     $bgv;;$re     $bgv;;$re   $bgv;;$re
-       $bgv..$re  $bgv..$re      $bgv..$re     $bgv..$re     $bgv..$re  $bgv..$re 
- $bgc........$re  $bgc..$re      $bgc..$re  $bgc........$re  $bgc.....$re"  
+ $bgr        $re     $bgr    $re     $bgr        $re  $bgr     $re
+ $bgr   $re         $bgr  $re  $bgr  $re       $bgr  $re     $bgr  $re   $bgr  $re
+ $bga   $re        $bga  $re    $bga  $re      $bga  $re     $bga  $re    $bga  $re 
+ $bga        $re  $bga  $re      $bga  $re     $bga  $re     $bga  $re    $bga  $re
+       $bgv  $re  $bgv           $re     $bgv  $re     $bgv  $re   $bgv  $re
+       $bgv  $re  $bgv  $re      $bgv  $re     $bgv  $re     $bgv  $re  $bgv  $re 
+ $bgc        $re  $bgc  $re      $bgc  $re  $bgc        $re  $bgc     $re" 
+echo
+echo 
 
 
-read -p "$ " opc
+read -p ">> " opc
 
 case $opc in
     sms_spam)
