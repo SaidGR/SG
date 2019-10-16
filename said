@@ -42,6 +42,7 @@ printf "
  $bgc........$re  $bgc..$re      $bgc..$re  $bgc........$re  $bgc.....$re" 
 
 function bnw46 {
+
 $ro $bgc[1]$re $ve Spam con mensajes$re
 $ro $bgc[2]$re $ve Instalacion de Metasploit$re
 $ro $bgc[3]$re $ve Cuentas premium (Venta)$re
@@ -56,6 +57,7 @@ $ro $bgc[11]$re$ve Generador de cc (INSTALA) $re
 $ro $bgc[12]$re$ve Usar Generador de cc (primero instale 11)$re
 $ro $bgc[99]$re$ve Colocar menú como banner$re
 "
+
 } 
 
 
