@@ -47,6 +47,53 @@ echo
 read -p ">> " opc
 
 case $opc in
+    help)
+        printf "
+
+$ve command      $am function$re
+
+$gr help          Da la lista de comandos ejecutables
+
+$grde sms_spam      Activa una serie de mensajes de texto a un
+               numero en especifico.
+
+$gr msf_said      Realiza la instalacion de la herramirnta
+               metasploit, sin errores.
+
+$grde comprar       Desplega un menu de cuentas y precios que
+               puedes comprar de 6 y 12 meses baratas
+
+$gr red_sg        Activa la herramienta para hackear redes
+               sociales mediante pishing.
+
+$grde btc              Activa el bot que mina btc automaticamente
+
+$gr remote_sg     Abre una sesion remota para poder arreglar
+               problemas directamente en su terminal
+
+$grde grupos        Te lleva a los grupos donde se dan clases
+               con este script en whatsapp y telegra
+
+$gr download_df   Descarga la herramienta para robar correos
+               y nuneros de facebook aun que esten privados
+
+$grde data_fb       Roba correos y numeros de los amigos de
+               facebook aun cuando son privados...
+               primero instala la herramienta: download_df
+
+$gr btc_bot       Descarga el bot que mina bitcoins, para
+               ejecutarlo usa: btc
+
+$grde said_bg_in    Instala una herramienta para sacar cc
+               no se ha comprobado que las cc funcionen
+
+$gr use_bg        Genera cc. aun no se ha comprobado que
+               las cc funcionen, perimero debe instalar
+               la herramienta con: said_bg_in$re
+
+"
+;;
+        
     sms_spam)
         printf "
     $ro $bgc[a]$re $ve Instalar herramienta$re
