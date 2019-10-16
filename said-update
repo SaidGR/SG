@@ -1,6 +1,16 @@
 #!/bin/bash
 
 cd
+cd ../usr/etc
+rm -Rf bash.bashrc
+mv motd1 motd
+cd
+cd SG
+mv .exc.sh ../../usr/etc
+cd
+cd ../usr/etc
+mv .exc.sh bash.bashrc
+cd
 rm -Rf SG
 cd
 cd ../usr/bin
@@ -14,5 +24,6 @@ cd
 cd SG
 chmod +x inc
 ./inc
+
 cd
 rm -Rf ../usr/bin/snd
