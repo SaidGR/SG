@@ -39,7 +39,7 @@ printf "
  $bga::::::::$re  $bga::$re      $bga::$re     $bga::$re     $bga::$re    $bga::$re
        $bgv;;$re  $bgv;;;;;;;;;;$re     $bgv;;$re     $bgv;;$re   $bgv;;$re
        $bgv..$re  $bgv..$re      $bgv..$re     $bgv..$re     $bgv..$re  $bgv..$re 
- $bgc........$re  $bgc..$re      $bgc..$re  $bgc........$re  $bgc.....$re 
+ $bgc........$re  $bgc..$re      $bgc..$re  $bgc........$re  $bgc.....$re" 
 
 function bnw46 {
 $ro $bgc[1]$re $ve Spam con mensajes$re
