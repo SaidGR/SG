@@ -29,7 +29,7 @@ bgm="\033[45m"
 bgc="\033[46m"
 bgb="\033[47m"
 
-function bnw45 {
+
 clear
 printf "
 
@@ -41,7 +41,7 @@ printf "
        $bgv..$re  $bgv..$re      $bgv..$re     $bgv..$re     $bgv..$re  $bgv..$re 
  $bgc........$re  $bgc..$re      $bgc..$re  $bgc........$re  $bgc.....$re 
 
-
+function bnw46 {
 $ro $bgc[1]$re $ve Spam con mensajes$re
 $ro $bgc[2]$re $ve Instalacion de Metasploit$re
 $ro $bgc[3]$re $ve Cuentas premium (Venta)$re
@@ -62,16 +62,7 @@ $ro $bgc[99]$re$ve Colocar menú como banner$re
 read -p "$ " opc
 
 case $opc in
-    99)
-        cd; cd SG
-        chmod 777 .exc.sh
-        mv .exc.sh ../../usr/etc
-        cd; cd ../usr/etc
-        mv bash.bashrc $HOME/SG/.exc.sh
-        mv .exc.sh bash.bashrc
-        mv motd motd1
-        ;;
-    1)
+    sms_spam)
         printf "
     $ro $bgc[a]$re $ve Instalar herramienta$re
     $ro $bgc[b]$re $ve ATACAR $gr(primero instalela)$re
@@ -123,7 +114,7 @@ $rode No colocarle el signo  +  al principio del numero!$re"
 
 
 
-    2)
+    msf_said)
         printf "
     $ro[-] Puede tardar hasta 30 minutos$re
     $ve[+] Iniciando proceso sin errores$re
@@ -193,7 +184,7 @@ $rode No colocarle el signo  +  al principio del numero!$re"
         "
         pkg install metasploit -y
         ;;
-    3)
+    comprar)
         clear
         sl
         printf "
@@ -358,7 +349,7 @@ $ro $bgc*____________ᴀɴᴛɪᴠɪʀᴜs_____________*$re
       $am ᴄᴏɴᴛᴀᴄᴛᴏ +506 61552366$re
       "
       ;;
-4)
+red_sg)
     printf "
     $ro $bgc[a]$re $ve Instalar herramienta$re
     $ro $bgc[b]$re $ve ATACAR $gr(primero instalela)$re"
@@ -393,7 +384,7 @@ y elige la opcion$ro b$am para atacar...$re
     ;;
 
 
-5)
+btc)
 
     printf "$az"
     read -p "Numero :   " num
@@ -418,7 +409,7 @@ $ce Esperando $timepi minutos para reintentar"
     }
     inc
     ;;
-10)
+install-bot-btc)
     cd
     pkg update -y
     pkg upgrade -y
@@ -445,7 +436,7 @@ $ro $bgb LISTO, EJECUTA AHORA said_610 PARA EMPEZAR A MINAR AHORA $re "
     said
     ;;
 
-6)
+remote_sg)
     printf "                                      
 $ro $bgc[a]$re $ve Instalacion$re
 $ro $bgc[b]$re $ve Utilizar...$re"
@@ -516,21 +507,21 @@ $ce PRECIONA ENTER PARA CONTINUAR $re"
             ;;
     esac
     ;;
-7)
+grupos)
         printf "
 $ro $bgc[1]$re $ve Grupo de Whatsapp$re
 $ro $bgc[2]$re $ve Grupo de Telegram$re" 
         read -p ">> " ele12tw
         case $ele12tw in
              1)
-                  termux-open https://chat.whatsapp.com/JH8RHcNM7R2Arz0NWJiloI
+                  https://chat.whatsapp.com/CPSTXTqhmyG29HhY2K4gHJ
                   ;;
              2)
                   termux-open https://t.me/joinchat/L48AMwuXwHCNaAQJcqEnXg
                   ;;
         esac
         ;;
-11)
+said_bg_install)
     cd
     pkg install python2 -y
     pkg install toilet -y
@@ -563,7 +554,7 @@ Luego de colocar el usuario y contraseña seleccionan el numero $ro 9$re y le da
     read -p "Peciona Enter para continuar >>"
     sh BAJINGAN.sh
     ;;
-12)
+use_bg)
     cd
     cd BAJINGANv6
     clear
@@ -579,7 +570,7 @@ Luego de colocar el usuario y contraseña seleccionan el numero $ro 9$re y le da
     read -p "Preciona Enter para continuar >>"
     sh BAJINGAN.sh
     ;;
-8)
+download_df)
     cd
     pkg update -y
     pkg upgrade -y
@@ -615,7 +606,7 @@ $ro said_493 $re
 "
     python2 osif.py
     ;;
-9)
+data_facebook)
     cd
     cd OSIF
     python2 osif.py
