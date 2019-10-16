@@ -66,7 +66,7 @@ $grde comprar       Desplega un menu de cuentas y precios que
 $gr red_sg        Activa la herramienta para hackear redes
                sociales mediante pishing.
 
-$grde btc              Activa el bot que mina btc automaticamente
+$grde btc           Activa el bot que mina btc automaticamente
 
 $gr remote_sg     Abre una sesion remota para poder arreglar
                problemas directamente en su terminal
