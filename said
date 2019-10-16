@@ -37,7 +37,7 @@ printf "
  $bgr   $re         $bgr  $re  $bgr  $re       $bgr  $re     $bgr  $re   $bgr  $re
  $bga   $re        $bga  $re    $bga  $re      $bga  $re     $bga  $re    $bga  $re 
  $bga        $re  $bga  $re      $bga  $re     $bga  $re     $bga  $re    $bga  $re
-       $bgv  $re  $bgv           $re     $bgv  $re     $bgv  $re   $bgv  $re
+       $bgv  $re  $bgv          $re     $bgv  $re     $bgv  $re    $bgv  $re
        $bgv  $re  $bgv  $re      $bgv  $re     $bgv  $re     $bgv  $re  $bgv  $re 
  $bgc        $re  $bgc  $re      $bgc  $re  $bgc        $re  $bgc     $re" 
 echo
