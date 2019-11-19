@@ -16,6 +16,8 @@ cd
 cd ../usr/bin
 rm -Rf said
 cd
+printf "tiempo de espera 5s"
+sleep 5
 git clone https://github.com/SaidGR/SG.git
 cd
 cd ../usr/bin
