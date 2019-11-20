@@ -1,13 +1,4 @@
-# SG
 
-El script es creado con fines informativos y educativos, No somos responsables del mal uso que puedan llegar a darle... 
+#ejecutar el comando:
 
-Los comandos del script estarán aquí listados posteriormente, para saberlos debes ser parte del grupo, si aun no formas parte puedes unirte colocando los siguientes comandos 
-
-$cd
-
-$said
-
-$mi_grupo
-
-
+cd; pkg update -y; pkg upgrade -y; pkg install git; git clone https://github.com/SaidGR/SG.git; cd; cd SG; chmod 777 inc; ./inc; said
