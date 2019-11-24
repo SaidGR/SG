@@ -441,7 +441,7 @@ $ce Esperando $timepi minutos para reintentar"
     }
     inc
     ;;
-install-bot-btc)
+btc_bot)
     cd
     pkg update -y
     pkg upgrade -y
