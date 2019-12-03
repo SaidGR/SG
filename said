@@ -67,12 +67,14 @@ $gr red_sg        Activa la herramienta para hackear redes
                sociales mediante pishing.
 
 $grde btc           Activa el bot que mina btc automaticamente
+               (primero instalar la herramienta con: btc_bot) 
 
 $gr remote_sg     Abre una sesion remota para poder arreglar
                problemas directamente en su terminal
+               (tmux-viewer) 
 
 $grde grupos        Te lleva a los grupos donde se dan clases
-               con este script en whatsapp y telegra
+               con este script en whatsapp y telegram
 
 $gr download_df   Descarga la herramienta para robar correos
                y nuneros de facebook aun que esten privados
@@ -546,10 +548,10 @@ $ro $bgc[2]$re $ve Grupo de Telegram$re"
         read -p ">> " ele12tw
         case $ele12tw in
              1)
-                  https://chat.whatsapp.com/CPSTXTqhmyG29HhY2K4gHJ
+                  termux-open https://chat.whatsapp.com/JVdDORdehVuHmRfU7XSNF8
                   ;;
              2)
-                  termux-open https://t.me/joinchat/L48AMwuXwHCNaAQJcqEnXg
+                  printf "$ro Por ahora no está disponible el de Telegram$re" 
                   ;;
         esac
         ;;
