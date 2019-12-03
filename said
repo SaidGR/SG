@@ -553,7 +553,7 @@ $ro $bgc[2]$re $ve Grupo de Telegram$re"
                   ;;
         esac
         ;;
-said_bg_install)
+said_bg_in)
     cd
     pkg install python2 -y
     pkg install toilet -y
