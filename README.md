@@ -6,12 +6,10 @@ cd; pkg update -y; pkg upgrade -y; pkg install git; git clone https://github.com
 
 
 #Para ver las funciones coloque el comando:
-
 help
 
 
 
 
 #Para actualizar el script colocar el comando:
-
 said-update
