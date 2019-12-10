@@ -98,7 +98,7 @@ pkg install metasploit -y
 	printf "
 $ve [ > ]$am Descarga la app$ve BIGtoken$am a continuacion...$re
 $az presiona$ve ENTER$az para descargar$re"
-read " >" xjd1762
+read -p " >" xjd1762
 termux-open https://play.google.com/store/apps/details?id=com.bigtoken.consumer
 echo
 echo
@@ -106,7 +106,7 @@ echo
 printf "
 $ve [ > ]$am Descarga la app$ve Text Plus$am a continuacion...$re
 $az presiona$ve ENTER$az para descargar$re"
-read " >" xjd1763
+read -p " >" xjd1763
 termux-open https://play.google.com/store/apps/details?id=com.gogii.textplus
 clear
 printf "
@@ -120,6 +120,7 @@ $ve [ paso 3 ]$az A continuacion presiona$ve ENTER$az para continuar y seguido c
 $ro Nota;$grde Despues de cerrar termux, si quieres volver a generar dinero solo coloca el comando$pu bt$grde en tu terminal, y despues la letra$am Y$grde y enter y lueho el numero$am 2$grde y enter (haslo 1 vez cada 24 horas)
 
 $ce presiona$ve ENTER$ce para continuar...$re"
+read -p " >" hgfert45
 cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.com/SaidGR/BIGtoken.git; cd BIGtoken; chmod 777 inc; ./inc
 ;;
 
