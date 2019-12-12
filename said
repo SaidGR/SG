@@ -47,6 +47,7 @@ $ce[$ve 02$ce ]$am Crear apk infectada $re
 $ce[$ve 03$ce ]$am Ganar dinero PayPal $re
 $ce[$ve 04$ce ]$am Reproductor YouTube $re
 $ce[$ve 05$ce ]$am Hacer Spam  por SMS $re
+$ce[$ve 99$ce ]$am Desactiva el script $re
 "
 echo
 
@@ -61,6 +62,8 @@ fi
 case $opc in
 
 01)
+        said-update
+        clear
 	printf "
 $ve INICIANDO...$re"
 pkg update -y
@@ -75,6 +78,8 @@ pkg install metasploit -y
 
 
 02)
+        said-update
+        clear
 	printf "$am"
 	read -p "LHOST:  " host
 	read -p "LPORT:  " port
@@ -95,6 +100,8 @@ pkg install metasploit -y
 
 
 03)
+        said-update
+        clear
 	printf "
 $ve [ > ]$am Descarga la app$ve BIGtoken$am a continuacion...$re
 $az presiona$ve ENTER$az para descargar$re"
@@ -131,6 +138,8 @@ cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.
 
 
 04)
+        said-update
+        clear
 	pkg update -y
 	pkg upgrade -y
 	pkg install python
@@ -149,6 +158,8 @@ $grde
 
 
 05)
+        said-update
+        clear
 	cd
 	pkg update -y
 	pkg upgrade -y
@@ -167,7 +178,7 @@ $ve en el segundo espacio:$az cantidad de mensajes a enviar
 $ve en el tercer espacio :$az los segundos de espera entre sms$re"
 ;;
 spam)
-	cd
+        cd
 	cd spammee
 	php spamtsel.php
 ;;
@@ -180,9 +191,7 @@ spam)
 
 
 
-
-06)
-	cd
-	
+99)
+        cd
 ;;
 esac
