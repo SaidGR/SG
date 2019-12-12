@@ -192,6 +192,22 @@ spam)
 
 
 99)
-        cd
+cd
+cd ../usr/etc
+rm -Rf bash.bashrc
+mv motd1 motd
+cd
+cd SG
+mv .exc.sh ../../usr/etc
+cd
+cd ../usr/etc
+mv .exc.sh bash.bashrc
+cd
+rm -Rf SG
+cd
+cd ../usr/bin
+rm -Rf said
+rm -Rf said-update
+cd
 ;;
 esac
