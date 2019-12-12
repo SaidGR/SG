@@ -77,8 +77,11 @@ pkg install metasploit -y
 
 
 
+
+
+
+
 02)
-        said-update
         clear
 	printf "$am"
 	read -p "LHOST:  " host
@@ -93,6 +96,10 @@ pkg install metasploit -y
 	/sdcard/$name.apk
 	"
 ;;
+
+
+
+
 
 
 
@@ -137,6 +144,9 @@ cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.
 
 
 
+
+
+
 04)
         said-update
         clear
@@ -151,6 +161,10 @@ $ve [ + ]$az Instalado con exito, cada vez que quieras escuchar musica solo colo
 $grde
 /nombre del video$re"
 ;;
+
+
+
+
 
 
 
