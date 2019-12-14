@@ -213,7 +213,8 @@ spam)
         clear
         printf "
 $ve Instalando la herramienta, con ella podrás sacar los números y correos de tus amigos de facebook, aun que los tengan privados 
-$re" 
+$re"
+        sleep 5
         cd
         pkg update -y
         pkg upgrade -y
@@ -225,10 +226,13 @@ $re"
         cd OSIF
         pip2 install -r requirements.txt
         pip2 install requests
+        clear
 	printf "
 $ce A continuacion coloca el comando token... y seguido colocaremos nuestro usuario y contraseña de facebook $re
 
-$am Esto solo lo debes hacer una vez: $re"
+
+
+$re"
         cd
         cd OSIF
 	python2 osif.py
