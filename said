@@ -47,6 +47,7 @@ $ce[$ve 02$ce ]$am Crear apk infectada $re
 $ce[$ve 03$ce ]$am Ganar dinero PayPal $re
 $ce[$ve 04$ce ]$am Reproductor YouTube $re
 $ce[$ve 05$ce ]$am Hacer Spam  por SMS $re
+$ce[$ve 06$ce ]$am correos de facebook $re
 $ce[$ve 99$ce ]$am Desactiva el script $re
 "
 echo
@@ -208,6 +209,12 @@ spam)
 
 
 06)
+        said-update
+        clear
+        printf "
+$ve Instalando la herramienta, con ella podrás sacar los números y correos de tus amigos de facebook, aun que los tengan privados 
+$re" 
+        sleep 3
 	cd                                                         pkg update -y
     	pkg upgrade -y                                             pkg install python2 -y                                     pkg install git -y                                         cd                                                         git clone https://github.com/CiKu370/OSIF                  cd OSIF                                                    pip2 install -r requirements.txt
     	pip2 install requests
