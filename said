@@ -236,6 +236,28 @@ $re"
         cd
         cd OSIF
 	python2 osif.py
+        clear
+        printf "
+$ve LISTO,$ce coloca el comando$am said fb$ce cada vez que quieras utilizar la herramienta
+$re"
+;;
+
+fb)
+        cd
+        cd OSIF
+        clear
+        printf "
+$ro Comandos básicos:$re
+
+$ce dump_phone$am roba los números de tus amigos
+$ce dump_mail$am roba los correos de tus amigos
+
+$az coloca$am help$az para más opciones ⬇
+
+
+
+$re" 
+        python2 osif.py
 ;;
 
 
