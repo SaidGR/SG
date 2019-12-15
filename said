@@ -242,8 +242,6 @@ $ve LISTO,$ce coloca el comando$am said fb$ce cada vez que quieras utilizar la h
 $re"
 ;;
 fb)
-        cd
-        cd OSIF
         clear
         printf "
 $ro Comandos básicos:$re
@@ -255,10 +253,11 @@ $az coloca$am help$az para más opciones ⬇
 
 
 
-$re" 
+$re"
+        cd
+        cd OSIF
         python2 osif.py
 ;;
-
 
 
 
