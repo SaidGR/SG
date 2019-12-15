@@ -286,4 +286,9 @@ rm -Rf said
 rm -Rf said-update
 cd
 ;;
+dw) 
+cd
+cd /sdcard/download
+ls
+;;
 esac
