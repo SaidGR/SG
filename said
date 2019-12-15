@@ -42,13 +42,13 @@ printf "
  $bgc        $re  $bgc  $re      $bgc  $re  $bgc        $re  $bgc     $re"
 echo
 printf "
-$ce[$ve 01$ce ]$am Instalar metasploit $re
-$ce[$ve 02$ce ]$am Crear apk infectada $re
-$ce[$ve 03$ce ]$am Ganar dinero PayPal $re
-$ce[$ve 04$ce ]$am Reproductor YouTube $re
-$ce[$ve 05$ce ]$am Hacer Spam  por SMS $re
-$ce[$ve 06$ce ]$am correos de facebook $re
-$ce[$ve 99$ce ]$am Desactiva el script $re
+$ce[$ve 01$ce ]$am Instalar la herramienta Metasploit $re
+$ce[$ve 02$ce ]$am Generar payload infectado con .apk $re
+$ce[$ve 03$ce ]$am Ganar automáticamente saldo PayPal $re
+$ce[$ve 04$ce ]$am Reproductor para música de YouTube $re
+$ce[$ve 05$ce ]$am Hacer Spam de mensajes a un numero $re
+$ce[$ve 06$ce ]$am Robar correo o numeros de Facebook $re
+$ce[$ve 99$ce ]$am Desactiva este script de tu termux $re
 "
 echo
 
