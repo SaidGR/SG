@@ -172,43 +172,10 @@ $grde
 
 
 
+	
+
+
 05)
-        said-update
-        clear
-	cd
-	pkg update -y
-	pkg upgrade -y
-	pkg install git -y
-	pkg install python -y
-	pkg install python2 -y
-	pip2 install requests -y
-	pip2 install mechanize -y
-	git clone https://github.com/RANDIOLOY/spammee
-	clear
-	printf "
-$az[$ve+$az]$ce Listo, cada vez que quieras hacer spam solo coloca el comando$am said spam
-
-$ve en el primer espacio :$az coloca el numero de tu victima
-$ve en el segundo espacio:$az cantidad de mensajes a enviar
-$ve en el tercer espacio :$az los segundos de espera entre sms$re"
-;;
-spam)
-        cd
-	cd spammee
-	php spamtsel.php
-;;
-
-
-
-
-
-
-
-
-
-
-
-06)
         said-update
         clear
         printf "
@@ -268,7 +235,7 @@ $re"
 
 
 
-camp)
+06)
 said-update
 clear
 cd
