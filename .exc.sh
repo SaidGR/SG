@@ -3,7 +3,9 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
                 /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
         }
 fi
-dw="cd /sdcard/download"
+function dw {
+cd /sdcard/download
+}
 bit="termux-open https://bitly.com"
 cd
 cd SG
