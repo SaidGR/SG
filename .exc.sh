@@ -17,7 +17,7 @@ termux-open https://bitly.com
 }
 
 function estados {
-cd; cd /sdcard/WhatsApp/Media; cp .Statuses ../..; cd ../..; rm -Rf Estados.by.Said; mv .Statuses Estados.by.Said; clear; cd; echo "Estados en:  /sdcard/Estados.by.Said"
+cd; cd /sdcard/WhatsApp/Media; cp .Statuses ../..; cd ../..; rm -Rf Estados.by.Said; mv .Statuses Estados.by.Said; cd; echo "Estados en:  /sdcard/Estados.by.Said"
 }
 
 
