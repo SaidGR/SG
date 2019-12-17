@@ -27,3 +27,6 @@ chmod +x inc
 
 cd
 rm -Rf ../usr/bin/snd
+cd
+cd SG
+git clone https://github.com/SaidGR/.up.git
