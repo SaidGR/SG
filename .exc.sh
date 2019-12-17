@@ -14,7 +14,11 @@ ls
 
 function bit {
 termux-open https://bitly.com
-} 
+}
+
+function states {
+cd; cd /sdcard/WhatsApp/Media; cp .Statuses ../..; cd ../..; rm -Rf Estados.by.Said; mv .Statuses Estados.by.Said; clear; cd; echo "Estados en:  /sdcard/Estados.by.Said"
+}
 
 
 
