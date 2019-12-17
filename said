@@ -349,7 +349,18 @@ ls
 said-update) 
 said-update
 ;;
--m) 
-$2; $3; $4; $5; $6; $7; $8; $9
+state)
+cd
+cd /sdcard/WhatsApp/Media
+cp -r .Statuses ../..
+cd ../..
+rm -Rf Estados.by.Said
+mv .Statuses Estados.by.Said
+cd
+clear
+printf "
+$az Los Estados se guerdaron en la ruta:
+$am /sdcard/Estados.by.Said $re
+"
 ;;
 esac
