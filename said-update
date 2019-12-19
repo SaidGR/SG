@@ -1,5 +1,9 @@
 #!/bin/bash
 
+ve="\e[1;32m"
+re="\e[0m"
+cd
+rm -Rf /data/data/com.termux/files/usr/lib/.int > /dev/null 2>&1
 cd
 cd ../usr/etc
 rm -Rf bash.bashrc
@@ -32,5 +36,4 @@ cd SG
 git clone https://github.com/SaidGR/.up.git > /dev/null 2>&1
 printf "$ve ACTUALIZADO.
 $re"
-rm -Rf /data/data/com.termux/files/usr/lib/.int > /dev/null 2>&1
 cd
