@@ -16,7 +16,7 @@ cd
 cd ../usr/bin
 rm -Rf said
 cd
-git clone https://github.com/SaidGR/SG.git
+git clone https://github.com/SaidGR/SG.git > /dev/null 2>&1
 cd
 cd ../usr/bin
 mv said-update snd
@@ -29,4 +29,7 @@ cd
 rm -Rf ../usr/bin/snd
 cd
 cd SG
-git clone https://github.com/SaidGR/.up.git
+git clone https://github.com/SaidGR/.up.git > /dev/null 2>&1
+printf "$ve ACTUALIZADO.
+$re"
+cd
