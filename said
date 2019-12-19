@@ -62,7 +62,7 @@ fi
 
 case $opc in
 
-01)
+01|1)
         said-update
         clear
 	printf "
@@ -82,7 +82,7 @@ pkg install metasploit -y
 
 
 
-02)
+02|2)
         clear
 	printf "$am"
 	read -p "LHOST:  " host
@@ -107,7 +107,7 @@ pkg install metasploit -y
 
 
 
-03)
+03|3)
         said-update
         clear
 	printf "
@@ -148,7 +148,7 @@ cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.
 
 
 
-04)
+04|4)
         said-update
         clear
 	pkg update -y
@@ -175,7 +175,7 @@ $grde
 	
 
 
-05)
+05|5)
         said-update
         clear
         printf "
@@ -235,7 +235,7 @@ $re"
 
 
 
-06)
+06|6)
 said-update
 clear
 cd
@@ -251,7 +251,7 @@ printf "
 $ve LISTO,$am ejecuta el comando$ve said psi$am cada vez que quieras hacer un pishing de alguna página... 
 $re" 
 ;;
-psi)
+psi|pesi)
 clear
 printf "
 
