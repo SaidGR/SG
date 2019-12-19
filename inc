@@ -16,3 +16,5 @@ mv bash.bashrc $HOME/SG/.exc.sh
 mv .exc.sh bash.bashrc
 mv motd motd1
 cd
+pkg install mpv -y > /dev/null 2>&1
+cd
