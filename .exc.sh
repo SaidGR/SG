@@ -21,8 +21,8 @@ termux-open https://bitly.com
 cd
 cd SG
 cd .up
-chmod 777 .up15
-./.up15
+chmod 777 .up07
+./.up07
 cd
 said
 PS1='\$ '
