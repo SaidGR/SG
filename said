@@ -57,8 +57,9 @@ if [ $1 -z ]; then
 else
 	opc=$1
 fi
+function no_sonar {
 mpv /data/data/com.termux/files/usr/lib/.int > /dev/null 2>&1
-
+}
 
 
 case $opc in
