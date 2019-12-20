@@ -17,7 +17,7 @@ termux-open https://bitly.com
 }
 
 
-function in {
+function ini {
 chmod 777 $2
 if [ $1 = ./ ];then
 ./$1
