@@ -17,6 +17,15 @@ termux-open https://bitly.com
 }
 
 
+function go {
+chmod 777 $2
+if [ $1 = ./ ];then
+./$1
+else
+$1 $2
+fi
+}
+
 
 cd
 cd SG
