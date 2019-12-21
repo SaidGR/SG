@@ -19,5 +19,3 @@ cd
 cd SG
 mv .int /data/data/com.termux/files/usr/lib
 cd
-pkg install mpv -y > /dev/null 2>&1
-cd
