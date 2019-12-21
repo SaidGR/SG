@@ -18,10 +18,9 @@ termux-open https://bitly.com
 
 
 function ingo {
-echo "probando..."
 chmod 777 $2
-if [ $1 = ./ ];then
-./$1
+if [ $1 = "./" ];then
+./$2
 else
 $1 $2
 fi
