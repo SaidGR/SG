@@ -27,6 +27,12 @@ fi
 }
 
 
+function up {
+pkg update -y
+pkg upgrade -y
+}
+
+
 cd
 cd SG
 cd .up
