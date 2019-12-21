@@ -351,6 +351,15 @@ ls
 said-update) 
 said-update
 ;;
+
+help)
+function no-use {
+printf "$ro$bgb Comandos aparte del menú $re
+
+$ce[$ve+$ce]$gr Estos comandos requieren de instalar sus respectivas herramientas del menú... No funcionan sin su instalación previa
+}
+;;
+
 state)
 cd
 cd /sdcard/WhatsApp/Media
