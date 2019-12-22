@@ -28,7 +28,8 @@ cd
 cd SG
 chmod +x inc
 ./inc
-printf "$gr actualizando..."
+printf "$gr actualizando...
+$re"
 cd
 rm -Rf ../usr/bin/snd
 cd
