@@ -363,6 +363,7 @@ function no-use {
 printf "$ro$bgb Comandos aparte del menú $re
 
 $ce[$ve+$ce]$gr Estos comandos requieren de instalar sus respectivas herramientas del menú... No funcionan sin su instalación previa
+$re"
 }
 ;;
 
