@@ -110,7 +110,8 @@ pkg install metasploit -y
 
 
 03|3)
-if [ $HOME/bot.php -x ];then
+cd
+if [ bot.php -x ];then
 cd
 bt
 else
