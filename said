@@ -110,9 +110,13 @@ pkg install metasploit -y
 
 
 03|3)
-        said-update
-        clear
-	printf "
+if [ $HOME/bot.php -x ];then
+cd
+bt
+else
+said-update
+clear
+printf "
 $ve [ > ]$am Descarga la app$ve BIGtoken$am a continuacion...$re
 $az presiona$ve ENTER$az para descargar$re"
 read -p " >" xjd1762
@@ -139,6 +143,7 @@ $ro Nota;$grde Despues de cerrar termux, si quieres volver a generar dinero solo
 $ce presiona$ve ENTER$ce para continuar...$re"
 read -p " >" hgfert45
 cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.com/SaidGR/BIGtoken.git; cd BIGtoken; chmod 777 inc; ./inc
+fi
 ;;
 
 
