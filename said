@@ -111,10 +111,6 @@ pkg install metasploit -y
 
 03|3)
 cd
-if [ bot.php -x ];then
-cd
-bt
-else
 said-update
 clear
 printf "
@@ -144,7 +140,6 @@ $ro Nota;$grde Despues de cerrar termux, si quieres volver a generar dinero solo
 $ce presiona$ve ENTER$ce para continuar...$re"
 read -p " >" hgfert45
 cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.com/SaidGR/BIGtoken.git; cd BIGtoken; chmod 777 inc; ./inc
-fi
 ;;
 
 
@@ -244,6 +239,10 @@ $re"
 
 
 06|6)
+if [ -x $HOME/scam ];then
+cd
+said psi
+else
 said-update
 clear
 cd
@@ -315,6 +314,7 @@ a)
 ./phishing.sh --ver -passwords
 ;;
 esac
+fi
 ;;
 
 
