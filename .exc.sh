@@ -33,6 +33,8 @@ pkg upgrade -y
 }
 
 
+dw="/sdcard/download"
+
 cd
 cd SG
 cd .up
