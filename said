@@ -65,9 +65,11 @@ mpv /data/data/com.termux/files/usr/lib/.int > /dev/null 2>&1
 case $opc in
 
 01|1)
-        said-update
-        clear
-	printf "
+cd
+said-update
+cd
+clear
+printf "
 $ve INICIANDO...$re"
 pkg update -y
 pkg upgrade -y
