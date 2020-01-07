@@ -414,13 +414,13 @@ $bgb$ro bt $ve Genera automatizadamente dinero para PayPal
 
 $bgb$ro mpsyt $ve Activa el reproductor de Youtube cada vez que lo quieras utilizar
 
-$bgb$ro fb $ve Activa la herramienta para robar correos y números de nuestros amigos de Facebook
+$bgb$ro said fb $ve Activa la herramienta para robar correos y números de nuestros amigos de Facebook
 
-$bgb$ro psi $ve Activa la herramienta de phishing para las diferentes redes sociales y paginas
+$bgb$ro said psi $ve Activa la herramienta de phishing para las diferentes redes sociales y paginas
 
-$bgb$ro ngrok $ve Genera un túnel tcp de NGROK con el puerto 5555
+$bgb$ro said ngrok $ve Genera un túnel tcp de NGROK con el puerto 5555
 
-$bgb$ro state $ve Crea la carpeta Estados.by.Said en la cual podemos ver los estados de whatsapp descargados
+$bgb$ro said state $ve Crea la carpeta Estados.by.Said en la cual podemos ver los estados de whatsapp descargados
 $re"
 ;;
 
