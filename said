@@ -165,8 +165,7 @@ cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.
 	apt install mpv
 	printf "
 $ve [ + ]$az Instalado con exito, cada vez que quieras escuchar musica solo coloca el comando$am mpsyt$az y para buscar los videos recuerda utilizar la barra inclinada. Ejemplo;
-$grde
-/nombre del video$re"
+$gr /nombre del video$re"
 ;;
 
 
@@ -399,17 +398,30 @@ ls
 ls) 
 ls
 ;;
-said-update) 
+said-update|update|-update) 
+cd
 said-update
 ;;
 
 help)
-function no-use {
 printf "$ro$bgb Comandos aparte del menú $re
 
 $ce[$ve+$ce]$gr Estos comandos requieren de instalar sus respectivas herramientas del menú... No funcionan sin su instalación previa
+$re
+
+$bgb$ro================================$re
+$bgb$ro bt $ve Genera automatizadamente dinero para PayPal 
+
+$bgb$ro mpsyt $ve Activa el reproductor de Youtube cada vez que lo quieras utilizar
+
+$bgb$ro fb $ve Activa la herramienta para robar correos y números de nuestros amigos de Facebook
+
+$bgb$ro psi $ve Activa la herramienta de phishing para las diferentes redes sociales y paginas
+
+$bgb$ro ngrok $ve Genera un túnel tcp de NGROK con el puerto 5555
+
+$bgb$ro state $ve Crea la carpeta Estados.by.Said en la cual podemos ver los estados de whatsapp descargados
 $re"
-}
 ;;
 
 state)
