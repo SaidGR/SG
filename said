@@ -48,6 +48,7 @@ $ce[$ve 03$ce ]$am Ganar automáticamente saldo PayPal $re
 $ce[$ve 04$ce ]$am Reproductor para música de YouTube $re
 $ce[$ve 05$ce ]$am Robar correo y numeros de Facebook $re
 $ce[$ve 06$ce ]$am Hacer Phishing para Redes Sociales $re
+$ce[$ve 07$ce ]$am Descarga Ngrok sin errores de port $re
 $ce[$ve 99$ce ]$am Desactiva este script de tu termux $re
 "
 echo
@@ -327,7 +328,39 @@ esac
 
 
 07|7)
+clear
+printf "
+$ce Acontinuación ve a ngrok, inicia sesión y copia el authoken del paso #3$ve
+" 
+read -p "authtoken: " token
+printf "$re" 
 cd
+cd ..
+git clone https://github.com/SaidGR/ngrok.git > /dev/null 2>&1
+cd ngrok
+mv ng $HOME
+rm -Rf ngrok
+cd
+rm -Rf ngrok > /dev/null 2>&1
+cd .. 
+mv ng $HOME/ngrok-stable-linux-arm.zip
+cd
+chmod 777 ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+cp ngrok /data/data/com.termux/files/usr/bin
+cd
+$token
+clear
+printf "$ve LISTO...$re
+
+
+$gr Puedes usar ngrok sin problemas, siempre y cuando no lo actualizes.
+
+Puedes automatizar el proceso con el comando$ve said ngrok$gr el cual creará el túnel tcp con el puerto 5555$re"
+;;
+ngrok) 
+cd
+ngrok tcp 5555
 ;;
 
  
