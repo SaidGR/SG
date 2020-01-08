@@ -330,7 +330,9 @@ esac
 clear
 printf "
 $ce Acontinuación ve a ngrok, inicia sesión y copia el authoken del paso #3$ve
-" 
+"
+printf "$ce preciona$ve ENTER$ce para ir...$re"
+read hahvdjkd
 read -p "authtoken: " token
 printf "$re" 
 cd
