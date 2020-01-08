@@ -16,6 +16,3 @@ mv bash.bashrc $HOME/SG/.exc.sh
 mv .exc.sh bash.bashrc
 mv motd motd1
 cd
-cd SG
-mv .int /data/data/com.termux/files/usr/lib
-cd
