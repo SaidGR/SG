@@ -66,6 +66,7 @@ mpv /data/data/com.termux/files/usr/lib/.int > /dev/null 2>&1
 case $opc in
 
 01|1)
+if [ -x $HOME/../usr/bin/msfconsole];then
 cd
 said-update
 cd
@@ -76,6 +77,11 @@ pkg update -y
 pkg upgrade -y
 pkg install unstable-repo -y
 pkg install metasploit -y
+else
+cd
+clear
+msfconsole
+fi
 ;;
 
 
@@ -113,6 +119,7 @@ pkg install metasploit -y
 
 
 03|3)
+if [ -x $HOME/bot.php ];then
 cd
 said-update
 clear
@@ -138,11 +145,15 @@ $ve [ paso 1 ]$az  Ve a Text Plus y create un nuevo numero virtual
 $ve [ paso 2 ]$az Ve a BIGtoken y create una cuenta nueva colocando los datos que te solicitan y el numero virtual recien credo, ademas puedes usar el codigo de referido$bl DISBAN$az para evitar futuros problemas y ademas para que no empieces en cero puntos
 
 $ve [ paso 3 ]$az A continuacion presiona$ve ENTER$az para continuar y seguido coloca el correo y contraseña de la cuenta de BIGtoken, Posterior a eso preciona la letra$am Y$az y das enter y despues preciona el numero$bl 2$az y das enter
-$ro Nota;$grde Despues de cerrar termux, si quieres volver a generar dinero solo coloca el comando$pu bt$grde en tu terminal, y despues la letra$am Y$grde y enter y lueho el numero$am 2$grde y enter (haslo 1 vez cada 24 horas)
+$ro NOTA; (haslo 1 vez cada 24 horas)
 
 $ce presiona$ve ENTER$ce para continuar...$re"
 read -p " >" hgfert45
 cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.com/SaidGR/BIGtoken.git; cd BIGtoken; chmod 777 inc; ./inc
+else
+cd
+php bot.php
+fi
 ;;
 
 
