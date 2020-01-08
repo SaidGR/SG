@@ -65,7 +65,7 @@ fi
 case $opc in
 
 01|1)
-if [ -x $HOME/../usr/bin/msfconsole];then
+if [ -x $HOME/../usr/bin/msfconsole ];then
 cd
 said-update
 cd
