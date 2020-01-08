@@ -53,14 +53,13 @@ $ce[$ve 99$ce ]$am Desactiva este script de tu termux $re
 "
 echo
 
-if [ $1 -z ]; then
+if [ -z $1 ]; then
 	read -p ">> " opc
 else
 	opc=$1
 fi
-function no_sonar {
-mpv /data/data/com.termux/files/usr/lib/.int > /dev/null 2>&1
-}
+
+
 
 
 case $opc in
@@ -273,9 +272,6 @@ cd
 cd scam
 bash install.sh
 clear
-printf "
-$ve LISTO,$am ejecuta el comando$ve said psi$am cada vez que quieras hacer un pishing de alguna página... 
-$re"
 fi
 ;;
 psi|pesi)
