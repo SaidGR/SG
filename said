@@ -405,8 +405,7 @@ cd
 said-update
 ;;
 
-help|-help|--help|-h)
-clear
+help|-help|--help|-h) 
 printf "$ro$bgb Comandos aparte del menú $re
 
 $ce[$ve+$ce]$ro Estos comandos requieren de instalar sus respectivas herramientas del menú... No funcionan sin su instalación previa
