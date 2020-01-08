@@ -166,6 +166,7 @@ fi
 
 
 04|4)
+        if [ -x $HOME/../usr/bin/mpsyt ];then
         said-update
         clear
 	pkg update -y
@@ -175,8 +176,12 @@ fi
 	pip install youtube_dl
 	apt install mpv
 	printf "
-$ve [ + ]$az Instalado con exito, cada vez que quieras escuchar musica solo coloca el comando$am mpsyt$az y para buscar los videos recuerda utilizar la barra inclinada. Ejemplo;
+$ve [ + ]$az Instalado con exito, para buscar los videos recuerda utilizar la barra inclinada. Ejemplo;
 $gr /nombre del video$re"
+        else
+        cd
+        mpsyt
+fi
 ;;
 
 
@@ -192,6 +197,7 @@ $gr /nombre del video$re"
 
 
 05|5)
+        if [ -x $HOME/OSIF ];then
         said-update
         clear
         printf "
@@ -219,10 +225,10 @@ $re"
         cd
         cd OSIF
 	python2 osif.py
-        clear
-        printf "
-$ve LISTO,$ce coloca el comando$am said fb$ce cada vez que quieras utilizar la herramienta
-$re"
+        else
+        cd
+        said fb
+        fi
 ;;
 fb)
         clear
