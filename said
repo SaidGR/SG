@@ -67,6 +67,10 @@ case $opc in
 01|1)
 if [ -x $PREFIX/bin/msfconsole ];then
 cd
+clear
+msfconsole
+else
+cd
 said-update
 cd
 clear
@@ -76,10 +80,6 @@ pkg update -y
 pkg upgrade -y
 pkg install unstable-repo -y
 pkg install metasploit -y
-else
-cd
-clear
-msfconsole
 fi
 ;;
 
@@ -120,6 +120,9 @@ fi
 03|3)
 if [ -x $HOME/bot.php ];then
 cd
+php bot.php
+else
+cd
 said-update
 clear
 printf "
@@ -149,9 +152,6 @@ $ro NOTA; (haslo 1 vez cada 24 horas)
 $ce presiona$ve ENTER$ce para continuar...$re"
 read -p " >" hgfert45
 cd; pkg update -y; pkg upgrade -y; pkg install git -y; git clone https://github.com/SaidGR/BIGtoken.git; cd BIGtoken; chmod 777 inc; ./inc
-else
-cd
-php bot.php
 fi
 ;;
 
@@ -165,7 +165,10 @@ fi
 
 
 04|4)
-        if [ -x $HOME/../usr/bin/mpsyt ];then
+        if [ -x $PREFIX/bin/mpsyt ];then
+        cd
+        mpsyt
+        else
         said-update
         clear
 	pkg update -y
@@ -177,10 +180,7 @@ fi
 	printf "
 $ve [ + ]$az Instalado con exito, para buscar los videos recuerda utilizar la barra inclinada. Ejemplo;
 $gr /nombre del video$re"
-        else
-        cd
-        mpsyt
-fi
+        fi
 ;;
 
 
@@ -197,6 +197,9 @@ fi
 
 05|5)
         if [ -x $HOME/OSIF ];then
+        cd
+        said fb
+        else
         said-update
         clear
         printf "
@@ -224,9 +227,6 @@ $re"
         cd
         cd OSIF
 	python2 osif.py
-        else
-        cd
-        said fb
         fi
 ;;
 fb)
