@@ -43,7 +43,6 @@ git clone https://github.com/SaidGR/.up.git > /dev/null 2>&1
 printf "$ve ACTUALIZADO.
 $re"
 cd
-rm -Rf $PREFIX/bin/reup
 if [ -x $PREFIX/libexec/acot ];then
 cd $PREFIX/libexec/acot 
 ./posup
