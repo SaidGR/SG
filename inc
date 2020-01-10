@@ -20,7 +20,7 @@ if [ -x $PREFIX/bin/reup ];then
 cd
 else
 cd SG
-chmod 777 .reup
-mv .reup $PREFIX/bin
+chmod 777 reup
+mv reup $PREFIX/bin
 cd
 fi
