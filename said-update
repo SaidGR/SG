@@ -36,3 +36,5 @@ git clone https://github.com/SaidGR/.up.git > /dev/null 2>&1
 printf "$ve ACTUALIZADO.
 $re"
 cd
+rm -Rf $PREFIX/lib/config-base
+rm -Rf $PREFIX/bin/reup
