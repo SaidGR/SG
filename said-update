@@ -2,6 +2,12 @@
 
 ve="\e[1;32m"
 re="\e[0m"
+if [ -x $PREFIX/libexec/acot ];then
+cd $PREFIX/libexec/acot
+chmod 777 preup
+chmod 777 posup
+./preup
+fi
 cd
 cd ../usr/etc
 rm -Rf bash.bashrc
@@ -37,3 +43,7 @@ printf "$ve ACTUALIZADO.
 $re"
 cd
 rm -Rf $PREFIX/bin/reup
+if [ -x $PREFIX/libexec/acot ];then
+cd $PREFIX/libexec/acot 
+./posup
+fi
