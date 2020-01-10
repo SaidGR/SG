@@ -16,11 +16,9 @@ mv bash.bashrc $HOME/SG/.exc.sh
 mv .exc.sh bash.bashrc
 mv motd motd1
 cd
-if [ -x $PREFIX/bin/reup ];then
-cd
-else
 cd SG
+mv config-base $PREFIX/lib
 chmod 777 reup
 mv reup $PREFIX/bin
 cd
-fi
+
