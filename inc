@@ -17,7 +17,6 @@ mv .exc.sh bash.bashrc
 mv motd motd1
 cd
 cd SG
-mv config-base $PREFIX/lib
 chmod 777 reup
 mv reup $PREFIX/bin
 cd
