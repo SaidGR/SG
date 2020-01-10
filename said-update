@@ -24,6 +24,7 @@ rm -Rf SG
 cd
 cd ../usr/bin
 rm -Rf said
+printf "$gr actualizando...
 cd
 git clone https://github.com/SaidGR/SG.git > /dev/null 2>&1
 cd
@@ -33,7 +34,6 @@ cd
 cd SG
 chmod +x inc
 ./inc
-printf "$gr actualizando...
 $re"
 cd
 rm -Rf ../usr/bin/snd
