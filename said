@@ -59,9 +59,10 @@ else
 	opc=$1
 fi
 
-
-
-
+if [ $opc != 1 ] && [ $opc != 01 ] && [ $opc != 2 ] && [ $opc != 02 ] && [ $opc != 3 ] && [ $opc != 03 ] && [ $opc != 4 ] && [ $opc != 04 ] && [ $opc != 5 ] && [ $opc != 05 ] && [ $opc != 6 ] && [ $opc != 06 ] && [ $opc != 7 ] && [ $opc != 07 ] && [ $opc != 99 ] && [ $opc != help ] && [ $opc != -update ] && [ $opc != update ] && [ $opc != -help ] && [ $opc != --help ] && [ $opc != -h ] && [ $opc != state ] && [ $opc != said-update ] && [ $opc != ngrok ] && [ $opc != fb ] && [ $opc != psi ] && [ $opc != pesi ];then
+cd
+$opc $2 $3 $4 $5 $6 $7 $8 $9
+else
 case $opc in
 
 01|1)
@@ -425,6 +426,7 @@ $ce[$ve+$ce]$ro Estos comandos requieren de instalar sus respectivas herramienta
 $re
 
 $bgb$ro================================$re
+
 $bgb$ro bt $re$ve Genera automatizadamente dinero para PayPal 
 
 $bgb$ro mpsyt $re$ve Activa el reproductor de Youtube cada vez que lo quieras utilizar
@@ -454,3 +456,4 @@ $am /sdcard/Estados.by.Said $re
 "
 ;;
 esac
+fi
