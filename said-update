@@ -24,7 +24,7 @@ rm -Rf SG
 cd
 cd ../usr/bin
 rm -Rf said
-printf "$gr actualizando...
+printf "$gr actualizando..." 
 cd
 git clone https://github.com/SaidGR/SG.git > /dev/null 2>&1
 cd
