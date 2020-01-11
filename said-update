@@ -23,7 +23,8 @@ rm -Rf SG
 cd
 cd ../usr/bin
 rm -Rf said
-printf "actualizando..." 
+printf "actualizando...
+" 
 cd
 git clone https://github.com/SaidGR/SG.git > /dev/null 2>&1
 cd
