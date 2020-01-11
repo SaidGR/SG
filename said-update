@@ -6,7 +6,6 @@ if [ -x $PREFIX/libexec/acot ];then
 cd $PREFIX/libexec/acot
 chmod 777 preup
 chmod 777 posup
-chmod 777 act
 ./preup
 fi
 cd
@@ -45,5 +44,5 @@ cd
 if [ -x $PREFIX/libexec/acot ];then
 cd $PREFIX/libexec/acot 
 ./posup
-./act
+act
 fi
