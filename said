@@ -59,10 +59,11 @@ else
 	opc=$1
 fi
 
-if [ $opc -ne 1 ] && [ $opc -ne 01 ] && [ $opc -ne 2 ] && [ $opc -ne 02 ] && [ $opc -ne 3 ] && [ $opc -ne 03 ] && [ $opc -ne 4 ] && [ $opc -ne 04 ] && [ $opc -ne 5 ] && [ $opc -ne 05 ] && [ $opc -ne 6 ] && [ $opc -ne 06 ] && [ $opc -ne 7 ] && [ $opc -ne 07 ] && [ $opc -ne 99 ] && [ $opc -ne help ] && [ $opc -ne -update ] && [ $opc -ne update ] && [ $opc -ne -help ] && [ $opc -ne --help ] && [ $opc -ne -h ] && [ $opc -ne state ] && [ $opc -ne said-update ] && [ $opc -ne ngrok ] && [ $opc -ne fb ] && [ $opc -ne psi ] && [ $opc -ne pesi ];then
-cd
-$opc $2 $3 $4 $5 $6 $7 $8 $9
-else
+#if [ $opc -ne 1 ] && [ $opc -ne 01 ] && [ $opc -ne 2 ] && [ $opc -ne 02 ] && [ $opc -ne 3 ] && [ $opc -ne 03 ] && [ $opc -ne 4 ] && [ $opc -ne 04 ] && [ $opc -ne 5 ] && [ $opc -ne 05 ] && [ $opc -ne 6 ] && [ $opc -ne 06 ] && [ $opc -ne 7 ] && [ $opc -ne 07 ] && [ $opc -ne 99 ] && [ $opc -ne help ] && [ $opc -ne -update ] && [ $opc -ne update ] && [ $opc -ne -help ] && [ $opc -ne --help ] && [ $opc -ne -h ] && [ $opc -ne state ] && [ $opc -ne said-update ] && [ $opc -ne ngrok ] && [ $opc -ne fb ] && [ $opc -ne psi ] && [ $opc -ne pesi ];then
+#cd
+#$opc $2 $3 $4 $5 $6 $7 $8 $9
+#else
+
 case $opc in
 
 01|1)
@@ -456,4 +457,3 @@ $am /sdcard/Estados.by.Said $re
 "
 ;;
 esac
-fi
