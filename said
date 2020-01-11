@@ -59,7 +59,7 @@ else
 	opc=$1
 fi
 
-if [ $opc != 1 ] && [ $opc != 01 ] && [ $opc != 2 ] && [ $opc != 02 ] && [ $opc != 3 ] && [ $opc != 03 ] && [ $opc != 4 ] && [ $opc != 04 ] && [ $opc != 5 ] && [ $opc != 05 ] && [ $opc != 6 ] && [ $opc != 06 ] && [ $opc != 7 ] && [ $opc != 07 ] && [ $opc != 99 ] && [ $opc != help ] && [ $opc != -update ] && [ $opc != update ] && [ $opc != -help ] && [ $opc != --help ] && [ $opc != -h ] && [ $opc != state ] && [ $opc != said-update ] && [ $opc != ngrok ] && [ $opc != fb ] && [ $opc != psi ] && [ $opc != pesi ];then
+if [ $opc -ne 1 ] && [ $opc -ne 01 ] && [ $opc -ne 2 ] && [ $opc -ne 02 ] && [ $opc -ne 3 ] && [ $opc -ne 03 ] && [ $opc -ne 4 ] && [ $opc -ne 04 ] && [ $opc -ne 5 ] && [ $opc -ne 05 ] && [ $opc -ne 6 ] && [ $opc -ne 06 ] && [ $opc -ne 7 ] && [ $opc -ne 07 ] && [ $opc -ne 99 ] && [ $opc -ne help ] && [ $opc -ne -update ] && [ $opc -ne update ] && [ $opc -ne -help ] && [ $opc -ne --help ] && [ $opc -ne -h ] && [ $opc -ne state ] && [ $opc -ne said-update ] && [ $opc -ne ngrok ] && [ $opc -ne fb ] && [ $opc -ne psi ] && [ $opc -ne pesi ];then
 cd
 $opc $2 $3 $4 $5 $6 $7 $8 $9
 else
