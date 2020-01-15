@@ -4,6 +4,20 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ];then
         }
 fi
 
+function dw {
+cd /sdcard/download
+ls
+} 
+dw=/sdcard/download
+
+function ingo {
+chmod 777 $2
+if [ "$1" = "./" ];then
+./$2
+else
+$1 $2
+fi
+}
 cd
 cd SG
 cd .up
