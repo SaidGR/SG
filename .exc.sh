@@ -3,7 +3,11 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ];then
                 /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
         }
 fi
-
+function up {
+cd
+pkg update -y
+pkg upgrade -y
+}
 function dw {
 cd /sdcard/download
 ls
