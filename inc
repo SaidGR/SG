@@ -16,6 +16,8 @@ mv bash.bashrc $HOME/SG/.exc.sh
 mv .exc.sh bash.bashrc
 mv motd motd1
 cd
+cd SG
+git clone https://github.com/SaidGR/.up.git > /dev/null 2>&1
 if [ -x $PREFIX/bin/.reup ];then
 cd
 else
