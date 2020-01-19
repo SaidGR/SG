@@ -36,9 +36,6 @@ chmod +x inc
 ./inc
 cd
 rm -Rf $PREFIX/bin/snd
-cd
-cd SG
-git clone https://github.com/SaidGR/.up.git > /dev/null 2>&1
 printf "$ve ACTUALIZADO.
 $re"
 cd
