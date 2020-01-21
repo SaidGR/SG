@@ -1,0 +1,56 @@
+#!/data/data/com.termux/files/usr/bin/bash
+#Created on 00/01/2018 - Coded by Ivam3
+
+#This script helps you to install and configure the Ivam3byCinderella denial of service attack tool (DoS-A-Tool). 
+
+# I do not give you permission to modify it.
+# Tne knowledge is free, share it !!!
+
+# ++++++++++++++++++++++++++++ THANKS TO MY MASTER CINDERELLA (RIP) +++++++=++++++++++++++++++++++
+# People do not die if they still live in the memory of their loved ones. We miss her, we love her.
+
+clear
+apt update && upgrade
+apt install util-linux perl git clang -y
+clear
+setterm -foreground white
+          echo "       	      -{ DoS-A-Tool installation script } "
+          echo "              	   -{ exclusive for Termux } "
+          echo "                         -{ Coded by } "
+setterm -foreground green
+          echo "                ==============================";
+          echo "                .___                  _______";
+          echo "                |   |__ ______   ___  \_____ \ ";
+          echo "                |   \ \/ /\__ \ /   \    (__ <,";
+          echo "                |   |\   / __ \| Y Y \ \      \ ";
+          echo "                |___| \_/ (____|__|_| /______ /";
+          echo "                              \/    \/      \/ ";
+          echo "                ====== By ___ Cinderella ======";
+          echo
+          sleep 2
+setterm -foreground blue
+          echo "                      [---] Join me on [---]"
+          echo "          [-] www.youtube.com/c/ivam3bycinderella [-]"
+          echo "                 [-] fb.me/ivam3bycinderella [-]"
+          sleep 3
+          echo
+setterm -foreground white
+	  echo
+git clone https://github.com/ivam3/IbyC-DDoS.git
+cd IbyC-DDoS
+chmod 711 DoS-A-Tool
+chmod 711 Ivam3
+rm ../Get-DoS
+clear
+
+	  echo "# ++++++++++++++++++++++ THANKS TO MY MASTER CINDERELLA (RIP) ++++++++++++++++++++++++++++ #"
+	  echo "#        People do not die if they still live in the memory of their loved ones.	   #"
+	  echo "# 			     We miss her, we love her.					   #"
+	  echo "############################################################################################"
+	  echo
+	  echo
+	  echo
+	  echo "Now you can run Denial of Service Attack Tool using the command--> $ sh DoS-A-Tool"
+	  echo
+
+#Coded by Ivam3
