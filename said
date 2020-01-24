@@ -28,6 +28,10 @@ bgm="\033[45m"
 bgc="\033[46m"
 bgb="\033[47m"
 
+
+if [ -x $PREFIX/libexec/.datc ];then
+source $PREFIX/libexec/.datc
+fi
 if [ -x $PREFIX/.cont/dd02 ];then
 cd $PREFIX/.cont
 rm -Rf dd02
@@ -39,10 +43,10 @@ mv dd07 dd06
 mv dd08 dd07
 #clear
 cd
-said 08
+ddosatc
 fi
 
-#clear
+clear
 printf "
 
  $bgr        $re     $bgr    $re     $bgr        $re  $bgr     $re
@@ -402,7 +406,7 @@ ngrok tcp 5555
 08|8)
 function ddosatc {
 cd $PREFIX/libexec
-#clear
+clear
 printf "
 $bgb $ro HERRAMIENTA EN COLABORACIÓN CON...  $re
 
