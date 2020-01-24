@@ -42,7 +42,7 @@ cd
 said 08
 fi
 
-clear
+#clear
 printf "
 
  $bgr        $re     $bgr    $re     $bgr        $re  $bgr     $re
