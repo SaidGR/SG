@@ -29,14 +29,14 @@ bgc="\033[46m"
 bgb="\033[47m"
 
 if [ -x $PREFIX/.cont/.dd02 ];then
-rm -Rf $PREFIX/.cont/.dd02
 cd $PREFIX/.cont
-mv .dd03 .dd02
-mv .dd04 .dd03
-mv .dd05 .dd04
-mv .dd06 .dd05
-mv .dd07 .dd06
-mv .dd08 .dd07
+rm -Rf dd02
+mv dd03 dd02
+mv dd04 dd03
+mv dd05 dd04
+mv dd06 dd05
+mv dd07 dd06
+mv dd08 dd07
 #clear
 cd
 said 08
@@ -442,7 +442,7 @@ else
 cd
 pkg update -y
 pkg upgrade -y
-pkg install util-linux perl git clang -y
+pkg install perl git clang -y
 git clone https://github.com/SaidGR/ivc.git > /dev/null 2>&1
 cd
 cd ivc
@@ -459,15 +459,15 @@ cd $PREFIX
 rm -Rf .cont
 mkdir .cont
 cd .cont
-mkdir .dd02 
-mkdir .dd03
-mkdir .dd04 
-mkdir .dd05 
-mkdir .dd06 
-mkdir .dd07 
-mkdir .dd08
+mkdir dd02 
+mkdir dd03
+mkdir dd04 
+mkdir dd05 
+mkdir dd06 
+mkdir dd07 
+mkdir dd08
 cd
-said 8
+said
 ;;
 
 
