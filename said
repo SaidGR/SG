@@ -28,7 +28,10 @@ bgm="\033[45m"
 bgc="\033[46m"
 bgb="\033[47m"
 
-
+function ddosatc {
+cd $PREFIX/libexec
+perl .iv3 $website 0 0
+}
 if [ -x $PREFIX/libexec/.datc ];then
 source $PREFIX/libexec/.datc
 fi
