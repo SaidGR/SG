@@ -456,8 +456,15 @@ ddos)
 cd $PREFIX
 rm -Rf .cont
 mkdir .cont
-cd $PREFIX/.cont
-mkdir .dd02 .dd03 .dd04 .dd05 .dd06 .dd07 .dd08
+cd .cont
+mkdir .dd02 
+mkdir .dd03
+mkdir .dd04 
+mkdir .dd05 
+mkdir .dd06 
+mkdir .dd07 
+mkdir .dd08
+cd
 said 8
 ;;
 
