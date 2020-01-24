@@ -30,13 +30,15 @@ bgb="\033[47m"
 
 if [ -x $PREFIX/.cont/.dd02 ];then
 rm -Rf $PREFIX/.cont/.dd02
-mv $PREFIX/.cont/.dd03 $PREFIX/.cont/.dd02
-mv $PREFIX/.cont/.dd04 $PREFIX/.cont/.dd03
-mv $PREFIX/.cont/.dd05 $PREFIX/.cont/.dd04
-mv $PREFIX/.cont/.dd06 $PREFIX/.cont/.dd05
-mv $PREFIX/.cont/.dd07 $PREFIX/.cont/.dd06
-mv $PREFIX/.cont/.dd08 $PREFIX/.cont/.dd07
+cd $PREFIX/.cont
+mv .dd03 .dd02
+mv .dd04 .dd03
+mv .dd05 .dd04
+mv .dd06 .dd05
+mv .dd07 .dd06
+mv .dd08 .dd07
 clear
+cd
 said 08
 fi
 
