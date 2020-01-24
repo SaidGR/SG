@@ -404,7 +404,7 @@ git clone https://github.com/SaidGR/ivc.git > /dev/null 2>&1
 cd
 cd ivc
 chmod 777 .inc
-./inc
+./.inc
 cd
 rm -Rf ivc
 cd $PREFIX/libexec
