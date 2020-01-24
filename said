@@ -28,7 +28,7 @@ bgm="\033[45m"
 bgc="\033[46m"
 bgb="\033[47m"
 
-if [ -x $PREFIX/.cont/.dd02 ];then
+if [ -x $PREFIX/.cont/dd02 ];then
 cd $PREFIX/.cont
 rm -Rf dd02
 mv dd03 dd02
