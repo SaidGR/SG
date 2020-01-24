@@ -431,6 +431,7 @@ ddosatc
 fi
 ;;
 ddos)
+if [ -x $PREFIX/libexec/.iv3 ];then
 cd $PREFIX
 rm -Rf .cont
 mkdir .cont
@@ -444,6 +445,9 @@ mkdir dd07
 mkdir dd08
 cd
 said
+else
+said 08
+fi
 ;;
 
 
