@@ -37,7 +37,7 @@ mv .dd05 .dd04
 mv .dd06 .dd05
 mv .dd07 .dd06
 mv .dd08 .dd07
-clear
+#clear
 cd
 said 08
 fi
@@ -402,7 +402,7 @@ ngrok tcp 5555
 08|8)
 function ddosatc {
 cd $PREFIX/libexec
-clear
+#clear
 printf "
 $bgb $ro HERRAMIENTA EN COLABORACIÓN CON...  $re
 
