@@ -46,7 +46,7 @@ cd
 ddosatc
 fi
 
-clear
+#clear
 printf "
 
  $bgr        $re     $bgr    $re     $bgr        $re  $bgr     $re
