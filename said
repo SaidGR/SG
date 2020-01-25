@@ -44,9 +44,9 @@ mv dd05 dd04
 mv dd06 dd05
 mv dd07 dd06
 mv dd08 dd07
-#clear
+clear
 cd
-ddosatc
+said 08
 fi
 
 clear
