@@ -28,7 +28,7 @@ bgm="\033[45m"
 bgc="\033[46m"
 bgb="\033[47m"
 
-website="www.lapazshopping.com.ar"
+website=
 
 function ddosatc {
 cd $PREFIX/libexec
