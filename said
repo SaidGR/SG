@@ -369,7 +369,9 @@ clear
 printf "
 $ce Acontinuación ve a ngrok, inicia sesión en la página y copia el authoken que te da en la página en el paso #3$ve
 "
-printf "$ce preciona$ve ENTER$ce para ir a la página...$re"
+printf "
+$az preciona$ve ENTER$az para ir a la página...$re
+"
 read hahvdjkd
 read -p "authtoken: " token
 printf "$re" 
