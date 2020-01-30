@@ -367,9 +367,9 @@ esac
 07|7)
 clear
 printf "
-$ce Acontinuación ve a ngrok, inicia sesión y copia el authoken del paso #3$ve
+$ce Acontinuación ve a ngrok, inicia sesión en la página y copia el authoken que te da en la página en el paso #3$ve
 "
-printf "$ce preciona$ve ENTER$ce para ir...$re"
+printf "$ce preciona$ve ENTER$ce para ir a la página...$re"
 read hahvdjkd
 read -p "authtoken: " token
 printf "$re" 
@@ -378,18 +378,26 @@ cd ..
 git clone https://github.com/SaidGR/ngrok.git > /dev/null 2>&1
 cd ngrok
 mv ng $HOME
+cd ..
 rm -Rf ngrok
 cd
-rm -Rf ngrok > /dev/null 2>&1
-cd .. 
-mv ng $HOME/ngrok-stable-linux-arm.zip
+rm -Rf ngrok
+rm -Rf .ngrok2
+rm -Rf ngrok-stable-linux-arm.zip
+cd $PREFIX/bin
+rm -Rf ngrok
+rm -Rf ngrok-stable-linux-arm.zip
+rm -Rf .ngrok2
 cd
+mv ng ngrok-stable-linux-arm.zip
 chmod 777 ngrok-stable-linux-arm.zip
 unzip ngrok-stable-linux-arm.zip
 cp ngrok /data/data/com.termux/files/usr/bin
+clear
 cd
 $token
 clear
+printf "$token" 
 printf "$ve LISTO...$re
 
 
